@@ -1,0 +1,188 @@
+<?php
+/* * *********************************************************
+ * jQuery UI Tabs
+ * ********************************************************* */
+$_oscitas_tabs = array('current_id'=>0);
+$_oscitas_tabs_accordion = array('current_id'=>0);
+$_oscitas_tabs_accordion_common=array();
+function osc_theme_tabs($params, $content = null) {
+    global $_oscitas_tabs,$_oscitas_tabs_accordion,$_oscitas_tabs_accordion_common;
+    if (!count($_oscitas_tabs)) {
+        $_oscitas_tabs = array('current_id'=>0);
+    }
+    if (!count($_oscitas_tabs_accordion)) {
+        $_oscitas_tabs_accordion = array('current_id'=>0);
+    }
+    if(!isset($_SESSION['ebs_res_tabs'])){
+        $_SESSION['ebs_res_tabs']=array();
+    }
+    extract(shortcode_atts(array(
+        'cid'=>count($_oscitas_tabs_accordion_common),
+        'id' => count($_oscitas_tabs),
+        'aid' => count($_oscitas_tabs_accordion),
+        'class' => '',
+        'responsive'=>'',
+        'pills' =>'',
+        'position'=>'',
+        'text'=>'',
+        'icon'=>'',
+        'icontype'=>'',
+        'lg'=>'more',
+        'md'=>'more',
+        'sm'=>'more',
+        'xs'=>'more',
+        'tabcolor'=>'',
+        'tabhcolor'=>'',
+        'atabcolor'=>'',
+        'atabhcolor'=>'',
+        'tabconcolor'=>'',
+        'tabconbgcolor'=>'',
+    ), $params));
+    $_oscitas_tabs[$id] = array();
+    $_oscitas_tabs_accordion_common[$cid] = array();
+    $_oscitas_tabs['current_id'] = count($_oscitas_tabs)-1;
+
+    do_shortcode($content);
+    $accordion_output = '';
+    $classes_tab=array();
+    $classes_acc=array();
+    $checkarr=array('lg','md','sm','xs');
+    foreach($checkarr as $val){
+        if($$val=='accordion'){
+            $classes_acc[]='ebs_tab_show_'.$val;
+        }else{
+            $classes_tab[]='ebs_tab_show_'.$val;
+        }
+    }
+
+    $css="
+    #oscitas-tabs-{$id} li a{
+        background:{$tabcolor};
+        color:{$tabhcolor};
+    }
+    #oscitas-tabs-{$id} li.active a,#oscitas-tabs-{$id} li a:hover{
+        background:{$atabcolor};
+        color:{$atabhcolor};
+    }
+    .ebs-tab-container-{$id} > div{
+        color:{$tabconcolor};
+        background:{$tabconbgcolor};
+    }
+    ";
+    $_SESSION['ebs_res_tabs'][$id]=$css;
+    if($responsive=='true'){
+        if($icon && $icontype){
+            $text='<i class="'.$icontype.' '.$icon.'"></i> '.$text;
+        }
+        if($pills=='nav-pills'){
+            $navclass='nav-pills';
+        }
+        else{
+            $navclass='nav-tabs';
+        }
+        if($position=='tabs-below'){
+            $scontent = '<div
+    class="ebs-tab-container-' . $id . ' tab-content '.EBS_CONTAINER_CLASS.'" id="oscitas-tabcontent-' . $id . '">' . implode('', $_oscitas_tabs[$id]['panes']) . '</div><ul class="nav osc-res-nav '.$navclass.EBS_CONTAINER_CLASS.'" id="oscitas-tabs-' . $id . '">' . implode('', $_oscitas_tabs[$id]['tabs']) . '</ul>';
+        } else{
+            $scontent = '<ul class="nav osc-res-nav '.$navclass.EBS_CONTAINER_CLASS.'" id="oscitas-tabs-' . $id . '">' . implode('', $_oscitas_tabs[$id]['tabs']) . '</ul><div
+    class="ebs-tab-container-' . $id . ' tab-content'.EBS_CONTAINER_CLASS.'" id="oscitas-tabcontent-' . $id . '">' . implode('', $_oscitas_tabs[$id]['panes']) . '</div>';
+        }
+        $scontent.= wp_enqueue_style('ebs-tabdrop',EBS_ASSET_URL.'styles/tabdrop.css');
+        $scontent.= "<script type='text/javascript'>
+            jQuery(document).ready(function(){
+			jQuery('#oscitas-tabs-$id').tabdrop({
+            'text': '".$text."',
+            'id': '".$cid."',
+            });
+            });
+            </script>";
+
+        /*
+         * Accordion Code starts here
+         */
+        if($lg=='accordion' || $md=='accordion' || $sm=='accordion' || $xs=='accordion'){
+            $_oscitas_tabs_accordion[$aid] = array();
+            $_oscitas_tabs_accordion['current_id'] = count($_oscitas_tabs)-1;
+
+            if (trim($scontent) != '' || count($_oscitas_tabs_accordion[$id]['details'])) {
+                $acc_scontent = isset($_oscitas_tabs_accordion[$id]['details']) && is_array($_oscitas_tabs_accordion[$id]['details']) ? implode('', $_oscitas_tabs_accordion[$id]['details']) : '';
+                $accordion_output .= '<div class="ebs-tab-container-' . $id . ' ebs-tab-acc-show-'.$cid.' panel-group ebs_tab_accor ' . $class .' '.implode(' ',$classes_acc).EBS_CONTAINER_CLASS. '" id="oscitas-tab-accordion-' . $id . '">' . $acc_scontent;
+                $accordion_output .= '</div>';
+            }
+            $_oscitas_tabs_accordion['current_id'] -= 1;
+        }
+    }
+    else{
+        $scontent = '<ul class="nav nav-tabs'.EBS_CONTAINER_CLASS.'" id="oscitas-tabs-' . $id . '">' . implode('', $_oscitas_tabs[$id]['tabs']) . '</ul><div
+    class="ebs-tab-container-' . $id . ' tab-content'.EBS_CONTAINER_CLASS.'">' . implode('', $_oscitas_tabs[$id]['panes']) . '</div>';
+    }
+    if (trim($scontent) != "") {
+        $output = '<div  class="ebs-tab-show-'.$cid.' tabbable ebs_tab_accor ' .implode(' ',$classes_tab). $class . ' '.$position.EBS_CONTAINER_CLASS.'">' . $scontent;
+        $output .= '</div>';
+        $_oscitas_tabs['current_id'] = $_oscitas_tabs['current_id']-1;
+        return $output.$accordion_output;
+    } else {
+        return "";
+    }
+}
+ebs_backward_compatibility_callback('tabs', 'osc_theme_tabs');
+
+function osc_theme_tab($params, $content = null) {
+    global $_oscitas_tabs,$_oscitas_tabs_accordion;
+    extract(shortcode_atts(array(
+        'title' => 'title',
+        'active' => '',
+        'icon'=>'',
+        'icontype'=>'',
+        'iconcolor'=>''
+
+    ), $params));
+    $con = do_shortcode(trim($content));
+    if(trim($iconcolor)!=''){
+        $iconcolor= ' style="color:'.$iconcolor.'"';
+    }
+    if($icon!=''){
+        $icon='<i class="'.$icontype.' '.$icon.'"'.$iconcolor.'></i> ';
+    }
+    $index = $_oscitas_tabs['current_id'];
+    if (!isset($_oscitas_tabs[$index]['tabs'])) {
+        $_oscitas_tabs[$index]['tabs'] = array();
+    }
+    $pane_id = 'pane-' . $index . '-' .  count($_oscitas_tabs[$index]['tabs']);
+    $_oscitas_tabs[$index]['tabs'][] = '<li class="' . $active .EBS_CONTAINER_CLASS. '" ><a class="'.EBS_CONTAINER_CLASS.'" href="#' . $pane_id . '" data-toggle="tab"> ' .$icon. $title
+        . '</a></li>';
+    $_oscitas_tabs[$index]['panes'][] = '<div class="tab-pane ' . $active.EBS_CONTAINER_CLASS . '" id="'
+        . $pane_id . '">'. $con . '</div>';
+    /*
+     * Accordion Code starts here
+     */
+    if(trim($active)!=''){
+        $active='in';
+        $cl='';
+    } else{
+        $active='collapse';
+        $cl='collapsed';
+    }
+//
+//    $index = $_oscitas_tabs_accordion['current_id'];
+    //$index = $_oscitas_tabs_accordion_counter;
+    $id = isset($_oscitas_tabs_accordion[$index]['details'])?'details-' . $index . '-' . count($_oscitas_tabs_accordion[$index]['details']):'details-' . $index . '-0';
+    $const = get_defined_constants();
+    $_oscitas_tabs_accordion[$index]['details'][] = <<<EOS
+        <div class="panel panel-default{$const['EBS_CONTAINER_CLASS']}">
+            <div class="panel-heading{$const['EBS_CONTAINER_CLASS']}">
+              <h4 class="panel-title{$const['EBS_CONTAINER_CLASS']}">
+                <a class="accordion-toggle {$cl} {$const['EBS_CONTAINER_CLASS']}" data-toggle="collapse"
+                data-parent="#oscitas-accordion-{$index}"
+                href="#{$id}">
+                {$icon}{$title}
+                </a>
+              </h4>
+            </div>
+            <div id="{$id}" class="panel-collapse {$active}{$const['EBS_CONTAINER_CLASS']}">
+              <div class="panel-body{$const['EBS_CONTAINER_CLASS']}">{$con}</div>
+            </div>
+        </div>
+EOS;
+}
+ebs_backward_compatibility_callback('tab', 'osc_theme_tab');

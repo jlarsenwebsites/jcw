@@ -1,0 +1,153 @@
+var servicebox={
+    title:"Service Box1 Shortcode",
+    id :'#oscitas-form-servicebox'
+};
+(function() {
+    tinymce.create('tinymce.plugins.oscitasServicebox', {
+        init : function(ed, url) {
+
+            ed.addButton('oscitasservicebox', {
+                title : 'Service Box Shortcode',
+                image : url+'/icon.png',
+                onclick : function() {
+                    create_oscitas_servicebox();
+                    open_dialogue(servicebox.id,800);
+                }
+            });
+        },
+        createControl : function(n, cm) {
+            return null;
+        },
+        getInfo : function() {
+            plugininfo.longname=servicebox.title;
+            return plugininfo;
+        }
+    });
+    tinymce.PluginManager.add('oscitasservicebox', tinymce.plugins.oscitasServicebox);
+})();
+
+function create_oscitas_servicebox(){
+
+    if(jQuery('#oscitas-form-servicebox').length){
+        jQuery('#oscitas-form-servicebox').remove();
+    }
+
+    // creates a form to be displayed everytime the servicebox is clicked
+    // you should achieve this using AJAX instead of direct html code like this
+
+    var form = jQuery('<div id="oscitas-form-servicebox" title="'+servicebox.title+'"><table id="oscitas-table" class="form-table">\
+                        <tr>\
+                        <th><label for="oscitas-heading-icon">Select Icon:</label></th>\
+				<td><div id="click_icon_list_servicebox" class="oscitas-icon-div"><span id="osc_show_icon_servicebox"></span><span class="show-drop"></span></div><input type="hidden" id="oscitas-servicebox-icon" value="">\
+                    <div id="osc_show_iconlist_servicebox" class="oscitas-icon" style="display:none;width:100%"><ul name="oscitas-heading-icon_servicebox" id="oscitas-heading-icon_servicebox" class="oscitas-icon-ul">'+ebsicons+'\
+        </ul></div>\
+				</td>\
+			</tr>\
+            <tr>\
+                <th><label for="oscitas-servicebox-iconbg">Icon background:</label></th>\
+                <td><select name="type" id="oscitas-servicebox-iconbg">\
+                    <option value="iconcircle">Circle</option>\
+                    <option value="iconbox">Box</option>\
+                    <option value="iconstar">Star</option>\
+                    <option value="triangle-up">Triangle Up</option>\
+                    <option value="triangle-down">Triangle Down</option>\
+                    <option value="trapezoid">Trapezoid</option>\
+                    <option value="star-five">Star Five</option>\
+                    <option value="pentagon">Pentagon</option>\
+                    <option value="hexagon">Hexagon</option>\
+                    <option value="octagon">Octagon</option>\
+                    <option value="heart">Heart</option>\
+                    <option value="diamond">Diamond</option>\
+                    <option value="diamond-narrow">Diamond Narrow</option>\
+                    <option value="cut-diamond">Cut Diamond</option>\
+                    <option value="burst-12">Burst 12</option>\
+                    <option value="burst-8">Burst 8</option>\
+                </select><br />\
+                </td>\
+            </tr>\
+            <tr>\
+				<th><label for="oscitas-servicebox-iconbgcolor">Icon Background Color:</label></th>\
+				<td><input type="text" name="label" id="oscitas-icon-bg" class="color" value="#FFFFFF" data-default-color="#FFFFFF"/><br />\
+				</td>\
+			</tr>\
+                <tr >\
+				<th><label for="oscitas-servicebox-iconcolor">Icon Color:</label></th>\
+				<td><input type="text" name="label" id="oscitas-icon-color" class="color" value="#777777" data-default-color="#777777"/><br />\
+				</td>\
+			</tr>\
+            <tr>\
+				<th><label for="oscitas-servicebox-headingtype">Heading Type:</label></th>\
+				<td><select name="oscitas-servicebox-headingtype" id="oscitas-servicebox-headingtype">\
+                                <option value="h1">H1</option>\
+                                <option value="h2">H2</option>\
+                                <option value="h3">H3</option>\
+                                <option value="h4">H4</option>\
+                                <option value="h5">H5</option>\
+                                <option value="h6">H6</option>\
+                                </select><br />\
+				</td>\
+			</tr>\
+			<tr>\
+				<th><label for="oscitas-servicebox-heading">Heading:</label></th>\
+				<td><input type="text" name="line" id="oscitas-servicebox-heading" value=""/><br />\
+				</td>\
+			</tr>\
+            <tr>\
+				<th><label for="oscitas-servicebox-class">Custom Class:</label></th>\
+				<td><input type="text" name="line" id="oscitas-servicebox-class" value=""/><br />\
+				</td>\
+			</tr>\
+		</table>\
+		<p class="submit">\
+			<input type="button" id="oscitas-servicebox-submit" class="button-primary" value="Insert Service Box" name="submit" />\
+		</p>\
+		</div>');
+
+    var table = form.find('table');
+    jQuery('.glyphicon').css('display','inline');
+    form.appendTo('body').hide();
+    table.find('#click_icon_list_servicebox').click(function(){
+        if(!jQuery(this).hasClass('osc_icon_showing_servicebox')){
+            jQuery(this).addClass('osc_icon_showing_servicebox')
+            table.find('#osc_show_iconlist_servicebox').show();
+        } else{
+            jQuery(this).removeClass('osc_icon_showing_servicebox')
+            table.find('#osc_show_iconlist_servicebox').hide();
+        }
+    });
+    table.find('#oscitas-heading-icon_servicebox li').click(function(){
+        var val=jQuery(this).attr('data-value');
+        table.find('#oscitas-heading-icon_servicebox li').removeClass('osc_icon_selected');
+        jQuery(this).addClass('osc_icon_selected');
+        table.find('#click_icon_list_servicebox').removeClass('osc_icon_showing_servicebox');
+        table.find('#osc_show_iconlist_servicebox').hide();
+        table.find('#osc_show_icon_servicebox').removeClass().addClass('glyphicon').addClass(val);
+        table.find('#oscitas-servicebox-icon').val(val);
+    })
+
+
+    form.find('.color').wpColorPicker();
+
+
+    // handles the click event of the submit servicebox
+    form.find('#oscitas-servicebox-submit').click(function(){
+
+        var options= ['icon','iconbg','iconbgcolor','iconcolor','headingtype','heading','class'];
+        var shortcodeattr='';
+        jQuery(options).each(function(ind,val){
+            if(jQuery('#oscitas-servicebox-'+val).val()!=''){
+                shortcodeattr+=' '+val+'="'+jQuery('#oscitas-servicebox-'+val).val()+'"';
+            }
+        })
+
+        var shortcode = '[servicebox'+shortcodeattr+']Your Content[/servicebox]';
+
+        // inserts the shortcode into the active editor
+        tinyMCE.activeEditor.execCommand('mceInsertContent', 0, shortcode);
+
+        // closes dialogue box
+        close_dialogue(servicebox.id);
+    });
+}
+
+

@@ -1,0 +1,49 @@
+.mce-ico.mce-i-osc_icon_drop.ebsp_dropdown_icon {
+    background: url("../images/icon_dropdown.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0) !important;
+    height: 16px !important;
+    position: relative !important;
+    top: 0 !important;
+    width: 47px !important;
+}
+.mce-splitbtn.ebsp_dropdown_cs_class {
+    height: 22px !important;
+    line-height: 22px !important;
+}
+.mce-splitbtn.ebsp_dropdown_cs_class:hover{
+    border: 1px solid #BBBBBB !important;
+    background: linear-gradient(to top, #E5E5E5, #FFFFFF) repeat scroll 0 0 #EEEEEE !important;
+}
+.ebsp_dropdown_items{
+    max-height: 22px !important;
+}
+.mce-i-osc_icon{
+    width: 20px !important;
+    height: 20px !important;
+}
+.ebs_licence_page {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E0E0E0;
+    margin: 10px 20px 0 2px;
+}
+.ebs_licence_page h2{
+    border-bottom: 1px solid #DDDDDD;
+    color: #33689C;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    width: 98%;
+}
+.ebs_licence_page .license-cell-outer{
+    padding: 10px;
+}
+.ebs_licence_page .license-cell-outer table tr th{
+    border-right: 1px dashed #e0e0e0;
+}
+.ebs_licence_page .license-cell-outer table tr th,
+.ebs_licence_page .license-cell-outer table tr td
+{
+    background: #F9F9F9;
+    padding:10px;
+    border: 1px dashed #e0e0e0;
+}

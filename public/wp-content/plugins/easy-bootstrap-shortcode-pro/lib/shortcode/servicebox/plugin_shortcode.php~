@@ -1,0 +1,37 @@
+<?php
+
+/* * *********************************************************
+ * Servicebox
+ * ********************************************************* */
+
+function osc_theme_servicebox($params, $content = null) {
+    extract(shortcode_atts(array(
+                'icon' => '',
+                'iconbg' => '',
+			    'iconbgcolor'=>'#FFFFFF',
+			    'iconcolor'=>'#777777',
+                'headingtype' => 'h3',
+                'heading' => '',
+                'class' => ''
+                    ), $params));
+    $out = '';
+	$style='style="background-color:'.$iconbgcolor.'; color:'.$iconcolor.'"';
+   $out.='<div class="osc_servicebox '.$class.'">';
+	if($icon!=''){
+		$out.='<div class="icon_bg '.$iconbg.'" '.$style.'>';
+		$out.= '<span class="glyphicon ' . $icon . '"></span>';
+		$out.='</div>';
+	}
+	if($heading!=''){
+		$out.='<'.$headingtype.'>'.$heading.'</'.$headingtype.'>';
+	}
+	$out.='<div class="osc_servicebox_content">';
+	$out.=do_shortcode($content);
+	$out.='</div>';
+	$out.='</div>';
+    return $out;
+}
+
+add_shortcode('servicebox', 'osc_theme_servicebox');
+
+

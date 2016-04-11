@@ -1,0 +1,2957 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Bootstrap Shortcode Pro\n"
+"POT-Creation-Date: 2014-07-10 11:20+0530\n"
+"PO-Revision-Date: 2014-08-14 18:17+0530\n"
+"Last-Translator: oscitas Themes <renu@oscitas.com>\n"
+"Language-Team: oscitas <renu@oscitas.com>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.7\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: osc_bootstrap_shortcode.php:80
+msgid "Easy Bootstrap Shortcode Pro License Options"
+msgstr "Easy Bootstrap Shortcode Pro Licence Options"
+
+#: osc_bootstrap_shortcode.php:90
+msgid "License Key"
+msgstr "Clé de licence"
+
+#: osc_bootstrap_shortcode.php:94
+msgid "Enter your license key"
+msgstr "Entrez votre clé de licence"
+
+#: osc_bootstrap_shortcode.php:102 osc_bootstrap_shortcode.php:111
+msgid "Activate License"
+msgstr "activer la licence"
+
+#: osc_bootstrap_shortcode.php:106
+msgid "active"
+msgstr "actif"
+
+#: osc_bootstrap_shortcode.php:108
+msgid "Deactivate License"
+msgstr "désactiver la licence"
+
+#: osc_bootstrap_shortcode.php:254
+#, fuzzy, php-format
+msgid ""
+"Click here to %sRegister%s your copy of EBS PRO to receive access to "
+"automatic upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr ""
+"Cliquez ici pour %sRegister%s votre copie de EBS PRO pour recevoir des mises "
+"à niveau et de soutien automatique. Besoin d'une clé de licence? %sPurchase "
+"un maintenant%s."
+
+#: osc_bootstrap_shortcode.php:656 lib/template/tabs/html.php:45
+msgid "Large Screen"
+msgstr "grand écran"
+
+#: osc_bootstrap_shortcode.php:657 lib/template/tabs/html.php:46
+msgid "Medium Screen"
+msgstr "écran moyen"
+
+#: osc_bootstrap_shortcode.php:658 lib/template/tabs/html.php:47
+msgid "Small Screen"
+msgstr "petit écran"
+
+#: osc_bootstrap_shortcode.php:659
+msgid "X-small Screen"
+msgstr "X-petit écran"
+
+#: osc_bootstrap_shortcode.php:660
+msgid "Animation Effect"
+msgstr "Effet d'animation"
+
+#: osc_bootstrap_shortcode.php:661 lib/template/animation/html.php:18
+msgid "Animation Time"
+msgstr "Animations Temps"
+
+#: osc_bootstrap_shortcode.php:662
+msgid "Class"
+msgstr "classe"
+
+#: osc_bootstrap_shortcode.php:664
+msgid "Can't Change, exceeds the limit"
+msgstr "Impossible de modifier, dépasse la limite"
+
+#: osc_bootstrap_shortcode.php:686 lib/template/animation/html.php:20
+msgid "Every Time"
+msgstr "à chaque fois"
+
+#: osc_bootstrap_shortcode.php:687 lib/template/animation/html.php:21
+msgid "One Time"
+msgstr "une fois"
+
+#: lib/ebs_settings.php:3
+msgid "Easy Bootstrap Shortcode Pro Settings"
+msgstr "Facile Bootstrap Shortcode Pro Paramètres"
+
+#: lib/ebs_settings.php:7
+msgid "CSS/JS Settings"
+msgstr "Paramètres CSS / JS"
+
+#: lib/ebs_settings.php:10
+msgid "Bootstrap JS File"
+msgstr "Bootstrap fichier JS"
+
+#: lib/ebs_settings.php:13 lib/ebs_settings.php:36 lib/ebs_settings.php:56
+msgid "Use from EBS Plugin"
+msgstr "Utilisez EBS Plugin"
+
+#: lib/ebs_settings.php:14 lib/ebs_settings.php:37 lib/ebs_settings.php:57
+msgid "Use from theme or any other plugin"
+msgstr "Utilisez de thème ou tout autre plug-in"
+
+#: lib/ebs_settings.php:15 lib/ebs_settings.php:38
+msgid "Load from CDN"
+msgstr "Charge à partir de"
+
+#: lib/ebs_settings.php:17
+msgid "bootstrap.js CDN Path"
+msgstr "bootstrap.js CDN chemin"
+
+#: lib/ebs_settings.php:19
+msgid "CDN Links for bootstrap.js, you can use any of these"
+msgstr "CDN Liens pour bootstrap.js, vous pouvez utiliser l'une de ces"
+
+#: lib/ebs_settings.php:30
+msgid "Click here to see more information about this icon."
+msgstr "Cliquez ici pour plus d'informations sur cette icône."
+
+#: lib/ebs_settings.php:33
+msgid "IE6+ compatibility JS File "
+msgstr "IE6 compatibilité + js"
+
+#: lib/ebs_settings.php:42
+msgid "CDN Links for respond.js, you can use any of these"
+msgstr "CDN Liens pour respond.js, vous pouvez utiliser l'une de ces"
+
+#: lib/ebs_settings.php:54
+msgid "Bootstrap Styling CSS File"
+msgstr "Bootstrap fichier Styling CSS"
+
+#: lib/ebs_settings.php:58
+msgid "No bootstrap theme"
+msgstr "Pas de thème de bootstrap"
+
+#: lib/ebs_settings.php:64
+msgid "Custom CSS Editor"
+msgstr "Éditeur de CSS personnalisé"
+
+#: lib/ebs_settings.php:70
+msgid "Font Inclusion"
+msgstr "inclusion de la police"
+
+#: lib/ebs_settings.php:74
+msgid "Font Awesome Icons"
+msgstr "Icônes impressionnants police"
+
+#: lib/ebs_settings.php:76
+msgid "Include Font Awesome Icons"
+msgstr "Inclure icônes impressionnants Comptoir"
+
+#: lib/ebs_settings.php:81
+msgid "User Interface"
+msgstr "Interface utilisateur"
+
+#: lib/ebs_settings.php:84
+msgid "Editor Button Style"
+msgstr "Bouton éditeur de styles"
+
+#: lib/ebs_settings.php:110
+msgid "Pagination Setup"
+msgstr "Configuration de la pagination"
+
+#: lib/ebs_settings.php:113
+msgid "Pagination Style"
+msgstr "pagination style"
+
+#: lib/ebs_settings.php:121
+msgid "Pagination Color Settings"
+msgstr "Paramètres de couleur pagination"
+
+#: lib/ebs_settings.php:126 lib/template/tooltip/html.php:24
+#: lib/template/tabs/html.php:44 lib/template/pricingtable/html.php:13
+#: lib/template/btngrp/html.php:51 lib/template/buttons/html.php:48
+#: lib/template/dropdown/html.php:64
+msgid "Type"
+msgstr "type"
+
+#: lib/ebs_settings.php:127 lib/template/boxesframes/html.php:25
+#: lib/template/progressbar/html.php:38 lib/template/dropcaps/html.php:21
+msgid "Background Color"
+msgstr "Couleur de fond"
+
+#: lib/ebs_settings.php:128
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: lib/ebs_settings.php:133 lib/template/oscpopover/html.php:38
+#: lib/template/oscpopover/html.php:48 lib/template/deslist/html.php:15
+#: lib/template/btngrp/html.php:18 lib/template/btngrp/html.php:27
+#: lib/template/well/html.php:10 lib/template/servicebox/html.php:113
+#: lib/template/servicebox/html.php:126 lib/template/servicebox/html.php:139
+#: lib/template/servicebox/html.php:167 lib/template/servicebox/html.php:176
+#: lib/template/progressbar/html.php:10 lib/template/progressbar/html.php:18
+#: lib/template/dropdown/html.php:27 lib/template/labels/html.php:10
+msgid "Default"
+msgstr "Par défaut"
+
+#: lib/ebs_settings.php:138 lib/template/oscpopover/html.php:32
+msgid "Hover"
+msgstr "Hover"
+
+#: lib/ebs_settings.php:143
+msgid "Current"
+msgstr "courant"
+
+#: lib/ebs_settings.php:153
+msgid "Update Settings"
+msgstr "Mettre à jour les paramètres"
+
+#: lib/widget.php:13
+msgid "Ebs pro widget to show ebs pro shortcode in sidebar."
+msgstr "Ebs pro widget pour montrer ebs pro shortcode dans la barre latérale."
+
+#: lib/widget.php:17
+msgid "EBS Shortcode Compiler"
+msgstr "EBS Shortcode compilateur"
+
+#: lib/ebs_ajax.php:611 lib/template/social/html.php:8
+msgid "Insert"
+msgstr "insérer"
+
+#: lib/ebs_ajax.php:611
+msgid "Cancel"
+msgstr "annuler"
+
+#: lib/ebs_ajax.php:611
+msgid "Preview"
+msgstr "avant-première"
+
+#: lib/ebs_ajax.php:638
+msgid "2 column division"
+msgstr "2 division de la colonne"
+
+#: lib/ebs_ajax.php:641 lib/ebs_ajax.php:649
+msgid ""
+"Choose a column division structure, it will be applicable on large screen "
+"only, you can customize column structure for every screen type manually"
+msgstr ""
+"Choisissez une structure de division de la colonne, il sera applicable sur "
+"grand écran uniquement, vous pouvez personnaliser la structure de colonne "
+"pour chaque type d'écran manuellement"
+
+#: lib/ebs_ajax.php:646
+msgid "3 column division"
+msgstr "3 division de la colonne"
+
+#: lib/ebs_help.php:32
+msgid "Easy Bootstrap Shortcode Pro Help"
+msgstr "Facile Bootstrap Shortcode Pro Aide"
+
+#: lib/ebs_help.php:34 lib/shortcode/functions.php:737
+msgid "View Demo"
+msgstr "Voir la démo"
+
+#: lib/ebs_help.php:34
+msgid "EBS Support"
+msgstr "Soutien EBS"
+
+#: lib/ebs_help.php:34
+msgid "EBS Plugin"
+msgstr "EBS plugin"
+
+#: lib/template/video/html.php:8
+msgid "VideoServer"
+msgstr "VideoServer"
+
+#: lib/template/video/html.php:10
+msgid "Youtube"
+msgstr "Youtube"
+
+#: lib/template/video/html.php:11
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#: lib/template/video/html.php:13
+msgid "choose type of video"
+msgstr "choisir le type de vidéo"
+
+#: lib/template/video/html.php:16 lib/template/oscpopover/html.php:54
+#: lib/template/tooltip/html.php:26 lib/template/tooltip/html.php:32
+#: lib/template/carousel/html.php:153 lib/template/btngrp/html.php:52
+#: lib/template/btngrp/html.php:68 lib/template/btngrp/html.php:73
+#: lib/template/buttons/html.php:16 lib/template/buttons/html.php:50
+#: lib/template/buttons/html.php:86 lib/template/servicebox/html.php:157
+#: lib/template/dropdown/html.php:40 lib/template/dropdown/html.php:65
+#: lib/template/thumbnail/html.php:13
+msgid "Link"
+msgstr "lien"
+
+#: lib/template/video/html.php:18
+msgid "Enter url of the video"
+msgstr "Entrez l'URL de la vidéo"
+
+#: lib/template/video/html.php:21 lib/template/gmaps/html.php:17
+#: lib/template/social/html.php:28
+msgid "Width"
+msgstr "largeur"
+
+#: lib/template/video/html.php:24 lib/template/video/html.php:29
+#, php-format
+msgid "Enter numeric value with '%' or 'px'"
+msgstr "Entrer la valeur numérique avec '%' ou 'px'"
+
+#: lib/template/video/html.php:27 lib/template/gmaps/html.php:20
+#: lib/template/social/html.php:31 lib/template/vertical_space/html.php:8
+msgid "Height"
+msgstr "hauteur"
+
+#: lib/template/video/html.php:32 lib/template/gmaps/html.php:42
+#: lib/template/panel/html.php:26 lib/template/image/html.php:22
+#: lib/template/iconhead/html.php:35 lib/template/lead/html.php:21
+#: lib/template/animation/html.php:38 lib/template/oscpopover/html.php:63
+#: lib/template/icon/html.php:24 lib/template/social/html.php:83
+#: lib/template/toggles/html.php:47 lib/template/recentpost/html.php:24
+#: lib/template/wptestimonial/html.php:18 lib/template/tooltip/html.php:42
+#: lib/template/highlights/html.php:36 lib/template/rule/html.php:30
+#: lib/template/lists/html.php:36 lib/template/tabs/html.php:129
+#: lib/template/deslist/html.php:21 lib/template/boxesframes/html.php:35
+#: lib/template/pricingtable/html.php:33 lib/template/carousel/html.php:189
+#: lib/template/notifications/html.php:23 lib/template/wpcolumns/html.php:45
+#: lib/template/slider/html.php:69 lib/template/btngrp/html.php:96
+#: lib/template/well/html.php:22 lib/template/separator/html.php:33
+#: lib/template/tables/html.php:49 lib/template/vertical_space/html.php:13
+#: lib/template/recentwork/html.php:30 lib/template/buttons/html.php:97
+#: lib/template/servicebox/html.php:204 lib/template/progressbar/html.php:191
+#: lib/template/pageheader/html.php:57 lib/template/dropdown/html.php:86
+#: lib/template/thumbnail/html.php:23 lib/template/labels/html.php:25
+#: lib/template/dropcaps/html.php:31
+msgid "Custom Class"
+msgstr "Custom Class"
+
+#: lib/template/video/html.php:34 lib/template/gmaps/html.php:44
+#: lib/template/panel/html.php:28 lib/template/image/html.php:24
+#: lib/template/iconhead/html.php:37 lib/template/lead/html.php:23
+#: lib/template/animation/html.php:40 lib/template/oscpopover/html.php:65
+#: lib/template/icon/html.php:26 lib/template/social/html.php:85
+#: lib/template/toggles/html.php:49 lib/template/recentpost/html.php:26
+#: lib/template/wptestimonial/html.php:20 lib/template/tooltip/html.php:44
+#: lib/template/highlights/html.php:38 lib/template/rule/html.php:32
+#: lib/template/lists/html.php:38 lib/template/tabs/html.php:131
+#: lib/template/deslist/html.php:23 lib/template/boxesframes/html.php:37
+#: lib/template/pricingtable/html.php:35 lib/template/carousel/html.php:191
+#: lib/template/notifications/html.php:25 lib/template/wpcolumns/html.php:45
+#: lib/template/slider/html.php:71 lib/template/btngrp/html.php:99
+#: lib/template/well/html.php:24 lib/template/separator/html.php:35
+#: lib/template/vertical_space/html.php:15 lib/template/recentwork/html.php:32
+#: lib/template/buttons/html.php:99 lib/template/servicebox/html.php:206
+#: lib/template/progressbar/html.php:193 lib/template/pageheader/html.php:59
+#: lib/template/dropdown/html.php:88 lib/template/thumbnail/html.php:25
+#: lib/template/labels/html.php:27 lib/template/dropcaps/html.php:33
+msgid ""
+"Provide a custom class which will be applied on shortcode container, with "
+"help of this you can customize js and css for complied shortcode"
+msgstr ""
+"Fournir une classe personnalisée qui sera appliquée sur le conteneur de "
+"shortcode, avec l'aide de ce que vous pouvez personnaliser js et css pour "
+"shortcode CONFORME"
+
+#: lib/template/btngrptool/html.php:7 lib/template/sectionhead/html.php:7
+#: lib/template/pagination/html.php:7 lib/template/testimonial/html.php:7
+msgid "Shortcode"
+msgstr "shortcode"
+
+#: lib/template/btngrptool/html.php:10
+msgid ""
+"This is used to add button groups into a tool bar, insert the shortcode and "
+"add button groups under the content section of toolbar "
+msgstr ""
+"Il est utilisé pour ajouter des groupes de bouton dans une barre d'outils, "
+"insérer le shortcode et ajouter des groupes de boutons dans la section du "
+"contenu de la barre d'outils"
+
+#: lib/template/gmaps/html.php:8
+msgid "Map Type"
+msgstr "carte Type"
+
+#: lib/template/gmaps/html.php:10
+msgid "Normal Map"
+msgstr "la carte standard"
+
+#: lib/template/gmaps/html.php:11
+msgid "Satellite Map"
+msgstr "Carte satellite"
+
+#: lib/template/gmaps/html.php:12
+msgid "Hybrid Map"
+msgstr "Carte hybride"
+
+#: lib/template/gmaps/html.php:14
+msgid "Choose a map type"
+msgstr "Choisissez un type de carte"
+
+#: lib/template/gmaps/html.php:19
+msgid "Width of map, enter a numeric value or 'false' for full width"
+msgstr ""
+"Largeur de la carte, entrez une valeur numérique ou «faux» pour toute la "
+"largeur"
+
+#: lib/template/gmaps/html.php:22
+msgid "Height of map, enter a numeric value or 'false' for auto height"
+msgstr ""
+"Taille de la carte, entrez une valeur numérique ou «faux» pour la hauteur de "
+"l'automobile"
+
+#: lib/template/gmaps/html.php:26
+msgid "Latitude"
+msgstr "latitude"
+
+#: lib/template/gmaps/html.php:28
+msgid "Enter latitude of place you want marked on map"
+msgstr "Entrer la latitude d'endroit où vous souhaitez marqué sur la carte"
+
+#: lib/template/gmaps/html.php:29
+msgid "Longitude"
+msgstr "longitude"
+
+#: lib/template/gmaps/html.php:31
+msgid "Enter longitude of place you want marked on map"
+msgstr "Saisissez la longitude d'endroit où vous souhaitez marqué sur la carte"
+
+#: lib/template/gmaps/html.php:34
+msgid "Address"
+msgstr "adresse"
+
+#: lib/template/gmaps/html.php:36
+msgid "If You dont know latitude and longitude anter the address of place"
+msgstr ""
+"Si vous ne connaissez pas la latitude et la longitude anter l'adresse du lieu"
+
+#: lib/template/gmaps/html.php:37
+msgid "Zoom"
+msgstr "zoom"
+
+#: lib/template/gmaps/html.php:39
+msgid "enter zoom level of map"
+msgstr "entrer niveau de zoom de la carte"
+
+#: lib/template/gmaps/html.php:47
+msgid ""
+"Latitude and Longitude having higher priority than address if latitude or "
+"longitude having zero value, map will search for address specified"
+msgstr ""
+"Latitude et Longitude ayant une priorité plus élevée que si l'adresse de "
+"latitude ou de longitude ayant une valeur zéro, la carte va chercher adresse "
+"indiquée"
+
+#: lib/template/panel/html.php:9 lib/template/rule/html.php:8
+#: lib/template/notifications/html.php:8 lib/template/btngrp/html.php:24
+#: lib/template/btngrp/html.php:50 lib/template/buttons/html.php:8
+#: lib/template/dropdown/html.php:17
+msgid "Style"
+msgstr "style"
+
+#: lib/template/panel/html.php:11 lib/template/btngrp/html.php:62
+#: lib/template/tables/html.php:26 lib/template/buttons/html.php:10
+#: lib/template/dropdown/html.php:34
+msgid "Simple"
+msgstr "simple"
+
+#: lib/template/panel/html.php:12 lib/template/oscpopover/html.php:49
+#: lib/template/btngrp/html.php:63 lib/template/buttons/html.php:11
+#: lib/template/dropdown/html.php:35 lib/template/labels/html.php:11
+msgid "Primary"
+msgstr "primaire"
+
+#: lib/template/panel/html.php:13 lib/template/oscpopover/html.php:52
+#: lib/template/notifications/html.php:10 lib/template/btngrp/html.php:66
+#: lib/template/buttons/html.php:14 lib/template/progressbar/html.php:21
+#: lib/template/dropdown/html.php:38 lib/template/labels/html.php:14
+msgid "Warning"
+msgstr "avertissement"
+
+#: lib/template/panel/html.php:14 lib/template/oscpopover/html.php:50
+#: lib/template/notifications/html.php:11 lib/template/btngrp/html.php:64
+#: lib/template/buttons/html.php:12 lib/template/progressbar/html.php:19
+#: lib/template/dropdown/html.php:36 lib/template/labels/html.php:12
+msgid "Success"
+msgstr "succès"
+
+#: lib/template/panel/html.php:15 lib/template/notifications/html.php:12
+#: lib/template/btngrp/html.php:65 lib/template/buttons/html.php:13
+#: lib/template/progressbar/html.php:20 lib/template/dropdown/html.php:37
+#: lib/template/labels/html.php:13
+msgid "Information"
+msgstr "informations"
+
+#: lib/template/panel/html.php:16 lib/template/oscpopover/html.php:53
+#: lib/template/notifications/html.php:13 lib/template/btngrp/html.php:67
+#: lib/template/buttons/html.php:15 lib/template/progressbar/html.php:22
+#: lib/template/dropdown/html.php:39 lib/template/labels/html.php:15
+msgid "Danger"
+msgstr "danger"
+
+#: lib/template/panel/html.php:18
+msgid "Choose one of among default bootstrap panel styles"
+msgstr "Choisissez l'un des modèles parmi défaut du panneau de bootstrap"
+
+#: lib/template/panel/html.php:21
+msgid "Show footer"
+msgstr "Afficher le pied de page"
+
+#: lib/template/panel/html.php:23
+msgid "Check this checkbox to show panel with footer"
+msgstr "Cochez cette case pour afficher le panneau de pied de page"
+
+#: lib/template/image/html.php:7 lib/template/servicebox/html.php:14
+#: lib/template/servicebox/html.php:16 lib/template/thumbnail/html.php:7
+msgid "Upload Image"
+msgstr "Envoyer une image"
+
+#: lib/template/image/html.php:10
+msgid "Click this button and upload image using wordpress media uploader"
+msgstr ""
+"Cliquez sur ce bouton et téléchargez l'image en utilisant wordpress uploader "
+"des médias"
+
+#: lib/template/image/html.php:13
+msgid "Image Shape"
+msgstr "Forme de l'image"
+
+#: lib/template/image/html.php:15
+msgid "Rounded"
+msgstr "arrondie"
+
+#: lib/template/image/html.php:16 lib/template/pricingtable/html.php:15
+#: lib/template/servicebox/html.php:27 lib/template/dropcaps/html.php:11
+msgid "Circle"
+msgstr "cercle"
+
+#: lib/template/image/html.php:17
+msgid "Thumbnail"
+msgstr "Vignette"
+
+#: lib/template/image/html.php:19
+msgid "Choose one image shape among bootstrap standard image shapes"
+msgstr "Choisissez une forme d'image parmi bootstrap formes d'image standard"
+
+#: lib/template/iconhead/html.php:8 lib/template/icon/html.php:8
+#: lib/template/lists/html.php:20 lib/template/buttons/html.php:56
+#: lib/template/servicebox/html.php:20
+msgid "Select Icon"
+msgstr "Sélectionnez Icône"
+
+#: lib/template/iconhead/html.php:11
+msgid "Choose icon for icon heading"
+msgstr "Choisissez icône icône rubrique"
+
+#: lib/template/iconhead/html.php:14 lib/template/icon/html.php:14
+#: lib/template/toggles/html.php:29 lib/template/lists/html.php:26
+#: lib/template/tabs/html.php:106 lib/template/buttons/html.php:68
+#: lib/template/servicebox/html.php:107 lib/template/servicebox/html.php:120
+#: lib/template/progressbar/html.php:93
+msgid "Icon Color"
+msgstr "icône Couleur"
+
+#: lib/template/iconhead/html.php:16
+msgid "Choose icon color for icon heading"
+msgstr "Choisissez l'icône de couleur pour l'icône rubrique"
+
+#: lib/template/iconhead/html.php:19 lib/template/servicebox/html.php:189
+#: lib/template/pageheader/html.php:19
+msgid "Heading Type"
+msgstr "rubrique de type"
+
+#: lib/template/iconhead/html.php:28
+msgid "Choose an heading type"
+msgstr "Choisissez un type de rubrique"
+
+#: lib/template/iconhead/html.php:30 lib/template/servicebox/html.php:199
+#: lib/template/pageheader/html.php:14
+msgid "Heading"
+msgstr "titre"
+
+#: lib/template/iconhead/html.php:32
+msgid "Enter heading"
+msgstr "Entrez rubrique"
+
+#: lib/template/lead/html.php:7
+msgid "Lead Content"
+msgstr "Teneur en plomb"
+
+#: lib/template/lead/html.php:9
+msgid "Enter the content to be shown in lead"
+msgstr "Entrez le contenu à afficher dans le plomb"
+
+#: lib/template/lead/html.php:12
+msgid "Lead Alignment"
+msgstr "Alignement plomb"
+
+#: lib/template/lead/html.php:14
+msgid "Center"
+msgstr "centre"
+
+#: lib/template/lead/html.php:15 lib/template/oscpopover/html.php:12
+#: lib/template/tooltip/html.php:12 lib/template/buttons/html.php:64
+#: lib/template/servicebox/html.php:92
+msgid "Left"
+msgstr "gauche"
+
+#: lib/template/lead/html.php:16 lib/template/oscpopover/html.php:13
+#: lib/template/tooltip/html.php:13 lib/template/buttons/html.php:65
+#: lib/template/servicebox/html.php:93
+msgid "Right"
+msgstr "droit"
+
+#: lib/template/lead/html.php:18
+msgid "Choose lead content alignment, default alignment is center"
+msgstr ""
+"Choisissez alignement teneur en plomb, l'alignement par défaut est le centre"
+
+#: lib/template/animation/html.php:13
+msgid "Animation Type"
+msgstr "animation Type"
+
+#: lib/template/animation/html.php:15
+msgid "Choose an animation type, you want to apply on your content"
+msgstr ""
+"Choisissez un type d'animation, vous souhaitez appliquer sur votre contenu"
+
+#: lib/template/animation/html.php:23
+msgid ""
+"Whether to apply animation every time or single time when content comes in "
+"view"
+msgstr ""
+"Que ce soit pour appliquer une animation à chaque fois ou temps unique "
+"lorsque le contenu est en vue"
+
+#: lib/template/animation/html.php:26
+msgid "Duration"
+msgstr "durée"
+
+#: lib/template/animation/html.php:29
+msgid "Provide value in seconds that specify the animation completion time"
+msgstr ""
+"Apporter de la valeur en secondes qui spécifient le temps animation "
+"d'achèvement"
+
+#: lib/template/animation/html.php:32
+msgid "Delay"
+msgstr "retard"
+
+#: lib/template/animation/html.php:35
+msgid ""
+"Provide value in seconds that specify the time after which animation will "
+"start"
+msgstr ""
+"Apporter de la valeur en secondes spécifier le délai au bout duquel "
+"l'animation va commencer"
+
+#: lib/template/oscpopover/html.php:8
+msgid "Popover Style"
+msgstr "Chandail style"
+
+#: lib/template/oscpopover/html.php:10 lib/template/tooltip/html.php:10
+#: lib/template/tabs/html.php:17
+msgid "Top"
+msgstr "haut"
+
+#: lib/template/oscpopover/html.php:11 lib/template/tooltip/html.php:11
+#: lib/template/tabs/html.php:18 lib/template/carousel/html.php:174
+msgid "Bottom"
+msgstr "bas"
+
+#: lib/template/oscpopover/html.php:14 lib/template/tooltip/html.php:14
+msgid "Auto"
+msgstr "auto"
+
+#: lib/template/oscpopover/html.php:16
+msgid "Select popover position"
+msgstr "Sélectionner la position de popover"
+
+#: lib/template/oscpopover/html.php:19
+msgid "Popover Title Text"
+msgstr "Chandail Titre Texte"
+
+#: lib/template/oscpopover/html.php:21
+msgid "Enter heading for popover"
+msgstr "Entrez en direction de popover"
+
+#: lib/template/oscpopover/html.php:24
+msgid "Popover Content"
+msgstr "Chandail contenu"
+
+#: lib/template/oscpopover/html.php:25 lib/template/well/html.php:18
+msgid "Your Content"
+msgstr "votre contenu"
+
+#: lib/template/oscpopover/html.php:26
+msgid "Enter popover content"
+msgstr "Entrez le contenu de popover"
+
+#: lib/template/oscpopover/html.php:29
+msgid "Trigger Popover On"
+msgstr "Trigger Popover Sur"
+
+#: lib/template/oscpopover/html.php:31
+msgid "Click"
+msgstr "Cliquez"
+
+#: lib/template/oscpopover/html.php:34
+msgid "Whether to show popover on hover or on click"
+msgstr "Que ce soit pour montrer popover au survol ou au clic"
+
+#: lib/template/oscpopover/html.php:36
+msgid "Button Size"
+msgstr "bouton Taille"
+
+#: lib/template/oscpopover/html.php:39 lib/template/btngrp/html.php:19
+#: lib/template/well/html.php:11 lib/template/buttons/html.php:23
+#: lib/template/servicebox/html.php:168 lib/template/dropdown/html.php:28
+msgid "Large"
+msgstr "grand"
+
+#: lib/template/oscpopover/html.php:40 lib/template/btngrp/html.php:20
+#: lib/template/well/html.php:12 lib/template/buttons/html.php:24
+#: lib/template/servicebox/html.php:169 lib/template/dropdown/html.php:29
+msgid "Small"
+msgstr "petit"
+
+#: lib/template/oscpopover/html.php:41
+msgid "X-Small"
+msgstr "X-Small"
+
+#: lib/template/oscpopover/html.php:43
+msgid "Choose button size "
+msgstr "Choisissez la taille du bouton"
+
+#: lib/template/oscpopover/html.php:46 lib/template/servicebox/html.php:165
+msgid "Button Type"
+msgstr "Type de bouton"
+
+#: lib/template/oscpopover/html.php:51
+msgid "Info"
+msgstr "infos"
+
+#: lib/template/oscpopover/html.php:56
+msgid "Choose button type"
+msgstr "Choisissez le type de bouton"
+
+#: lib/template/oscpopover/html.php:58
+msgid "Button Text"
+msgstr "bouton texte"
+
+#: lib/template/oscpopover/html.php:60
+msgid "Enter popover parent button text"
+msgstr "Entrez popover parent texte du bouton"
+
+#: lib/template/icon/html.php:11
+msgid "Choose one icon from list of icons"
+msgstr "Choisissez une icône dans la liste des icônes"
+
+#: lib/template/icon/html.php:16 lib/template/servicebox/html.php:109
+#: lib/template/progressbar/html.php:95
+msgid "Choose icon color"
+msgstr "Choisissez couleur de l'icône"
+
+#: lib/template/icon/html.php:19
+msgid "Icon Font Size"
+msgstr "Icône Taille de la police"
+
+#: lib/template/icon/html.php:21
+msgid "Font size of icon in pixels, enter a numeric value"
+msgstr "Taille de la police de l'icône, en pixels, entrez une valeur numérique"
+
+#: lib/template/social/html.php:10
+msgid "Facebook box"
+msgstr "Facebook boîte"
+
+#: lib/template/social/html.php:11
+msgid "Facebook comments"
+msgstr "commentaires sur Facebook"
+
+#: lib/template/social/html.php:12
+msgid "Twitter"
+msgstr "gazouillement"
+
+#: lib/template/social/html.php:14
+msgid ""
+"Choose which social networking site content you want to show, facebook or "
+"twitter"
+msgstr ""
+"Choisissez les sites de réseautage social contenu que vous souhaitez "
+"afficher, facebook ou twitter"
+
+#: lib/template/social/html.php:15
+msgid "Variant"
+msgstr "variante"
+
+#: lib/template/social/html.php:17
+msgid "Light"
+msgstr "lumière"
+
+#: lib/template/social/html.php:18
+msgid "Dark"
+msgstr "sombre"
+
+#: lib/template/social/html.php:20
+msgid "Choose theme for content"
+msgstr "Choisissez thème de contenu"
+
+#: lib/template/social/html.php:23
+msgid "Fanpage link"
+msgstr "Lien Fanpage"
+
+#: lib/template/social/html.php:25
+msgid "Provide link or facebook page which you want to show"
+msgstr "Fournir un lien ou une page facebook où vous voulez montrer"
+
+#: lib/template/social/html.php:30
+msgid "Width of container"
+msgstr "Largeur d'un conteneur"
+
+#: lib/template/social/html.php:33
+msgid "Height of container"
+msgstr "Hauteur de l'emballage"
+
+#: lib/template/social/html.php:36
+msgid "Show faces"
+msgstr "Voir les visages"
+
+#: lib/template/social/html.php:38 lib/template/social/html.php:44
+msgid "show"
+msgstr "montrer"
+
+#: lib/template/social/html.php:39 lib/template/social/html.php:45
+msgid "hide"
+msgstr "cacher"
+
+#: lib/template/social/html.php:41
+msgid "Show images of users who like this page"
+msgstr "Afficher les images des utilisateurs qui aiment cette page"
+
+#: lib/template/social/html.php:42
+msgid "Stream"
+msgstr "courant"
+
+#: lib/template/social/html.php:47
+msgid "Show the latest updates"
+msgstr "Voir les dernières mises à jour"
+
+#: lib/template/social/html.php:50
+msgid "Show posts"
+msgstr "Afficher les messages"
+
+#: lib/template/social/html.php:52
+msgid "Number of comments you want to show"
+msgstr "Nombre de commentaires que vous souhaitez afficher"
+
+#: lib/template/social/html.php:55
+msgid "Twitter username"
+msgstr "Twitter nom d'utilisateur"
+
+#: lib/template/social/html.php:57
+msgid "Provide twitter usename whose tweet you want to show"
+msgstr "Fournir twitter usename dont bip vous voulez montrer"
+
+#: lib/template/social/html.php:58
+msgid "Show tweets"
+msgstr "Afficher les tweets"
+
+#: lib/template/social/html.php:60
+msgid "Provide number of tweets you want to show, enter a numeric value"
+msgstr ""
+"Fournissez le nombre de tweets que vous souhaitez afficher, entrer une "
+"valeur numérique"
+
+#: lib/template/social/html.php:63 lib/template/servicebox/html.php:70
+#: lib/template/pageheader/html.php:43
+msgid "Border Color"
+msgstr "Couleur de la bordure"
+
+#: lib/template/social/html.php:65
+msgid "Select border color tweet box"
+msgstr "Cochez la case tweet de couleur de la bordure"
+
+#: lib/template/social/html.php:66
+msgid "Links Color"
+msgstr "liens Couleur"
+
+#: lib/template/social/html.php:68
+msgid "Select link color for tweet box"
+msgstr "Choisissez la couleur de lien pour boîte tweet"
+
+#: lib/template/social/html.php:71
+msgid "Hide Header"
+msgstr "Cachez-tête"
+
+#: lib/template/social/html.php:73
+msgid "Hide tweet box header"
+msgstr "Masquer boîte tweet tête"
+
+#: lib/template/social/html.php:74
+msgid "Hide Footer"
+msgstr "Masquer Footer"
+
+#: lib/template/social/html.php:76
+msgid "Hide tweet box footer"
+msgstr "Masquer boîte tweet footer"
+
+#: lib/template/social/html.php:78
+msgid "No Border"
+msgstr "No Border"
+
+#: lib/template/social/html.php:80
+msgid "Check this option if you don't want to show twwet box border"
+msgstr ""
+"Cochez cette option si vous ne souhaitez pas afficher la boîte de twwet "
+"frontière"
+
+#: lib/template/toggles/html.php:8
+msgid "Open Close Icon"
+msgstr "Ouvrez Fermer Icône"
+
+#: lib/template/toggles/html.php:10
+msgid ""
+"Check this option if you want to show arrows which change their direction "
+"according to toggle active status"
+msgstr ""
+"Cochez cette option si vous voulez afficher les boutons qui changent de "
+"direction selon la basculer l'état actif"
+
+#: lib/template/toggles/html.php:12
+msgid "Open first Toggle"
+msgstr "Ouvrir première bascule"
+
+#: lib/template/toggles/html.php:14
+msgid "Show first toggle opened"
+msgstr "Voir la première bascule ouvert"
+
+#: lib/template/toggles/html.php:17
+msgid "Toggle Items"
+msgstr "Déplacez les objets"
+
+#: lib/template/toggles/html.php:18 lib/template/tabs/html.php:95
+#: lib/template/slider/html.php:38 lib/template/btngrp/html.php:40
+#: lib/template/dropdown/html.php:57
+msgid "Add New Item"
+msgstr "Ajouter un nouvel élément"
+
+#: lib/template/toggles/html.php:21 lib/template/tabs/html.php:98
+msgid "Choose Icon"
+msgstr "choisir l'icône"
+
+#: lib/template/toggles/html.php:27 lib/template/tabs/html.php:104
+#: lib/template/btngrp/html.php:54 lib/template/buttons/html.php:75
+#: lib/template/dropdown/html.php:66
+msgid "Title"
+msgstr "titre"
+
+#: lib/template/toggles/html.php:27
+msgid "Title of toggle"
+msgstr "Titre de bascule"
+
+#: lib/template/toggles/html.php:28 lib/template/tabs/html.php:105
+#: lib/template/servicebox/html.php:11
+msgid "Icon"
+msgstr "icône"
+
+#: lib/template/toggles/html.php:28
+msgid "Choose icon which will be displayed with toggle title"
+msgstr "Choisissez l'icône qui sera affichée avec le titre de bascule"
+
+#: lib/template/toggles/html.php:29
+msgid "choose icon color"
+msgstr "choisir couleur de l'icône"
+
+#: lib/template/toggles/html.php:30 lib/template/tabs/html.php:108
+#: lib/template/btngrp/html.php:55 lib/template/dropdown/html.php:68
+msgid "Option"
+msgstr "option"
+
+#: lib/template/toggles/html.php:30
+msgid "remove unwanted toggle items"
+msgstr "supprimer des éléments de bascule indésirables"
+
+#: lib/template/recentpost/html.php:8
+msgid "No. of Posts"
+msgstr "Nombre de messages"
+
+#: lib/template/recentpost/html.php:9
+msgid "Enter number of postd to be shown, enter a numeric value"
+msgstr "Entrez le nombre de postd être montré, entrez une valeur numérique"
+
+#: lib/template/recentpost/html.php:12 lib/template/recentwork/html.php:18
+msgid "Layout"
+msgstr "disposition"
+
+#: lib/template/recentpost/html.php:14 lib/template/recentwork/html.php:20
+msgid "4 Column"
+msgstr "Colonne 4"
+
+#: lib/template/recentpost/html.php:15 lib/template/recentwork/html.php:21
+msgid "3 Column"
+msgstr "3 Colonne"
+
+#: lib/template/recentpost/html.php:16 lib/template/recentwork/html.php:22
+msgid "2 Column"
+msgstr "2 Colonne"
+
+#: lib/template/recentpost/html.php:17
+msgid "Select column layout for post"
+msgstr "Sélectionnez la mise en page de colonne pour poste"
+
+#: lib/template/recentpost/html.php:20 lib/template/wptestimonial/html.php:13
+#: lib/template/recentwork/html.php:26
+msgid "Content length"
+msgstr "la longueur du contenu"
+
+#: lib/template/recentpost/html.php:21
+msgid "Define no of words to be shown in post content, Enter a numeric value"
+msgstr ""
+"Pas définir de mots à afficher dans le contenu après, Entrez une valeur "
+"numérique"
+
+#: lib/template/wptestimonial/html.php:8
+msgid "No. of Testimonials"
+msgstr "Nombre de Témoignages"
+
+#: lib/template/wptestimonial/html.php:10
+msgid "Provide number of testimonials you want to show, enter a numeric value"
+msgstr ""
+"Fournissez le nombre de témoignages que vous souhaitez afficher, entrer une "
+"valeur numérique"
+
+#: lib/template/wptestimonial/html.php:15
+msgid "Define no of words to be shown, Enter a numeric value."
+msgstr "Définir pas de mots pour être montré, entrez une valeur numérique."
+
+#: lib/template/tooltip/html.php:8
+msgid "Tooltip Style"
+msgstr "style de bulle"
+
+#: lib/template/tooltip/html.php:16
+msgid "Choose tooltip position"
+msgstr "Choisissez la position de l'info-bulle"
+
+#: lib/template/tooltip/html.php:19
+msgid "Tooltip Text"
+msgstr "texte info-bulle"
+
+#: lib/template/tooltip/html.php:21
+msgid "Provide content which will be shown in tooltip"
+msgstr "Fournir un contenu qui sera affiché dans l'info-bulle"
+
+#: lib/template/tooltip/html.php:27 lib/template/btngrp/html.php:74
+#: lib/template/buttons/html.php:51
+msgid "Button"
+msgstr "bouton"
+
+#: lib/template/tooltip/html.php:29
+msgid "Choose tooltip button type"
+msgstr "Choisissez infobulle type de bouton"
+
+#: lib/template/tooltip/html.php:34
+msgid "Provide url for the button"
+msgstr "Fournir URL pour le bouton"
+
+#: lib/template/tooltip/html.php:37
+msgid "Value"
+msgstr "valeur"
+
+#: lib/template/tooltip/html.php:39
+msgid "Provide text for button"
+msgstr "Fournir un texte pour le bouton"
+
+#: lib/template/highlights/html.php:8
+msgid "Highlight Type"
+msgstr "Type de Highlight"
+
+#: lib/template/highlights/html.php:10
+msgid "Use Existing Highlights"
+msgstr "Utilisez Faits saillants existantes"
+
+#: lib/template/highlights/html.php:11
+msgid "Make Custom Highlight"
+msgstr "Faire personnalisé Highlight"
+
+#: lib/template/highlights/html.php:13
+msgid ""
+"EBS provide inbuilt highlight you can make custom highlight too, choose "
+"desired option"
+msgstr ""
+"EBS fournissent clou intégré vous pouvez faire culminant de commande aussi, "
+"choisir l'option désirée"
+
+#: lib/template/highlights/html.php:16
+msgid "Highlights"
+msgstr "Faits saillants"
+
+#: lib/template/highlights/html.php:18
+msgid "Yellow"
+msgstr "jaune"
+
+#: lib/template/highlights/html.php:19
+msgid "Blue"
+msgstr "bleu"
+
+#: lib/template/highlights/html.php:20
+msgid "Red"
+msgstr "rouge"
+
+#: lib/template/highlights/html.php:21
+msgid "Green"
+msgstr "vert"
+
+#: lib/template/highlights/html.php:23
+msgid "These are existing highlights"
+msgstr "Ceux-ci sont faits saillants existants"
+
+#: lib/template/highlights/html.php:26
+msgid "Highlight Background"
+msgstr "Highlight fond"
+
+#: lib/template/highlights/html.php:28
+msgid ""
+"If you want to make custom highlight, choose background color for the content"
+msgstr ""
+"Si vous voulez faire fort de coutume, choisir la couleur de fond pour le "
+"contenu"
+
+#: lib/template/highlights/html.php:31
+msgid "Highlight Color"
+msgstr "Sélectionnez Couleur"
+
+#: lib/template/highlights/html.php:33
+msgid "If you want to make custom highlight, choose text color for the content"
+msgstr ""
+"Si vous voulez faire culminant personnalisée, choisissez la couleur du texte "
+"pour le contenu"
+
+#: lib/template/rule/html.php:10 lib/template/separator/html.php:16
+msgid "Dotted"
+msgstr "pointillé"
+
+#: lib/template/rule/html.php:11 lib/template/separator/html.php:17
+msgid "Dashed"
+msgstr "pointillée"
+
+#: lib/template/rule/html.php:12 lib/template/separator/html.php:18
+msgid "Double"
+msgstr "double"
+
+#: lib/template/rule/html.php:13 lib/template/separator/html.php:19
+msgid "Double Thick Thin"
+msgstr "Double épaisseur mince"
+
+#: lib/template/rule/html.php:14
+msgid "Fade Corner"
+msgstr "Fade coin"
+
+#: lib/template/rule/html.php:15
+msgid "Double Fade Corner"
+msgstr "Double Coin Fade"
+
+#: lib/template/rule/html.php:16
+msgid "Shadow"
+msgstr "ombre"
+
+#: lib/template/rule/html.php:17 lib/template/separator/html.php:20
+msgid "Diagonal"
+msgstr "diagonale"
+
+#: lib/template/rule/html.php:18 lib/template/separator/html.php:21
+msgid "Wave"
+msgstr "vague"
+
+#: lib/template/rule/html.php:19 lib/template/separator/html.php:22
+msgid "Thick"
+msgstr "épais"
+
+#: lib/template/rule/html.php:20 lib/template/separator/html.php:23
+msgid "Thin"
+msgstr "mince"
+
+#: lib/template/rule/html.php:22
+msgid "Chose horizontal rule style"
+msgstr "Choisissez le style de la règle horizontale"
+
+#: lib/template/rule/html.php:25 lib/template/separator/html.php:28
+#: lib/template/pageheader/html.php:48
+msgid "Margin"
+msgstr "marge"
+
+#: lib/template/rule/html.php:27
+msgid "margin for rule from top and bottom, Enter a numeric value Ex. 20"
+msgstr "marge pour règle de haut et en bas, entrez une valeur numérique Ex. 20"
+
+#: lib/template/lists/html.php:8
+msgid "Lists style"
+msgstr "Listes de style"
+
+#: lib/template/lists/html.php:10 lib/template/boxesframes/html.php:10
+#: lib/template/carousel/html.php:81 lib/template/carousel/html.php:85
+#: lib/template/carousel/html.php:143 lib/template/carousel/html.php:153
+#: lib/template/carousel/html.php:175 lib/template/separator/html.php:15
+#: lib/template/progressbar/html.php:71
+msgid "None"
+msgstr "aucun"
+
+#: lib/template/lists/html.php:11
+msgid "Arrow"
+msgstr "flèche"
+
+#: lib/template/lists/html.php:12
+msgid "Check"
+msgstr "vérifier"
+
+#: lib/template/lists/html.php:13
+msgid "Plus"
+msgstr "plus"
+
+#: lib/template/lists/html.php:14
+msgid "Minus"
+msgstr "moins"
+
+#: lib/template/lists/html.php:15 lib/template/buttons/html.php:17
+#: lib/template/servicebox/html.php:113 lib/template/servicebox/html.php:126
+#: lib/template/servicebox/html.php:139 lib/template/servicebox/html.php:176
+msgid "Custom"
+msgstr "coutume"
+
+#: lib/template/lists/html.php:17
+msgid ""
+"There some predefined list style, made up with the help of icons, if you "
+"want to add custom icon choose custom option"
+msgstr ""
+"Il certain style de liste prédéfinie, fait avec l'aide d'icônes, si vous "
+"souhaitez ajouter une icône personnalisée choisissez l'option personnalisée"
+
+#: lib/template/lists/html.php:23
+msgid "To make custom list style choose an icon for list"
+msgstr ""
+"Pour faire liste personnalisée de style choisir une icône pour la liste"
+
+#: lib/template/lists/html.php:28
+msgid "Choose icon color for associated list icons"
+msgstr "Choisissez l'icône de couleur pour les icônes de la liste associés"
+
+#: lib/template/lists/html.php:31 lib/template/deslist/html.php:8
+msgid "No of List Item"
+msgstr "Aucun élément de liste"
+
+#: lib/template/lists/html.php:33
+msgid "Number of list items, enter a numeric value"
+msgstr "Nombre d'éléments de liste, entrez une valeur numérique"
+
+#: lib/template/tabs/html.php:9
+msgid "Make Tab Responsive"
+msgstr "Faire Tab Responsive"
+
+#: lib/template/tabs/html.php:12
+msgid "Check this checkbox if you  want responsive tabs"
+msgstr "Cochez cette case si vous voulez onglets sensibles"
+
+#: lib/template/tabs/html.php:15
+msgid "Show Tabs Position"
+msgstr "Afficher les onglets Position"
+
+#: lib/template/tabs/html.php:20
+msgid "Whether to show tabs at bottom or top of content"
+msgstr "Que ce soit pour montrer onglets en bas ou en haut de contenu"
+
+#: lib/template/tabs/html.php:21
+msgid "Tabs With Pills"
+msgstr "Onglets avec des pilules"
+
+#: lib/template/tabs/html.php:24
+msgid "Check this checkbox to show selector on selected tab"
+msgstr "Cochez cette case pour afficher le sélecteur sur l'onglet sélectionné"
+
+#: lib/template/tabs/html.php:27
+msgid "Use Icon"
+msgstr "Utilisez Icône"
+
+#: lib/template/tabs/html.php:31
+msgid "chosse an icon you want to show on tab button dropdown"
+msgstr ""
+"chosse une icône que vous souhaitez afficher sur l'onglet bouton déroulant"
+
+#: lib/template/tabs/html.php:32
+msgid "Drop Down Text"
+msgstr "Drop Down texte"
+
+#: lib/template/tabs/html.php:34
+msgid "Write text to be shown on button dropdown"
+msgstr "Écrire un texte à afficher sur le bouton déroulant"
+
+#: lib/template/tabs/html.php:37
+msgid "Type of responsive tabs"
+msgstr "Type de languettes réactives"
+
+#: lib/template/tabs/html.php:37
+msgid ""
+"When tabs exceeds than container width to make them responsive either you "
+"want to change them into accordion or want to show a button dropdown you can "
+"choose one of these option according to your window size"
+msgstr ""
+"Lorsque onglets dépasse de largeur du conteneur pour les rendre sensibles "
+"soit vous voulez les transformer en accordéon ou si vous voulez montrer un "
+"bouton déroulant, vous pouvez choisir l'une de ces options en fonction de "
+"votre taille de la fenêtre"
+
+#: lib/template/tabs/html.php:48
+msgid "Ex. Small Screen"
+msgstr "Ex. petit écran"
+
+#: lib/template/tabs/html.php:52
+msgid "More Button"
+msgstr "plus Bouton"
+
+#: lib/template/tabs/html.php:59
+msgid "Accordion"
+msgstr "accordéon"
+
+#: lib/template/tabs/html.php:72
+msgid "Tab  Color Settings"
+msgstr "Onglet Paramètres de couleur"
+
+#: lib/template/tabs/html.php:72
+msgid "Choose color settings to customize tab color"
+msgstr "Choisissez les paramètres de couleur pour personnaliser onglet couleur"
+
+#: lib/template/tabs/html.php:94 lib/template/dropdown/html.php:56
+msgid "Dropdown Items"
+msgstr "Articles déroulantes"
+
+#: lib/template/tabs/html.php:104
+msgid "Title of tab"
+msgstr "Titre de l'onglet"
+
+#: lib/template/tabs/html.php:105
+msgid "icon for tab to be shown with tab title"
+msgstr "icône pour tab pour être montré avec onglet titre"
+
+#: lib/template/tabs/html.php:106
+msgid "select icon color"
+msgstr "sélectionnez l'icône de couleur"
+
+#: lib/template/tabs/html.php:107
+msgid "Active"
+msgstr "actif"
+
+#: lib/template/tabs/html.php:107
+msgid "Choose a tab which you want to keep opened on load"
+msgstr "Choisissez un onglet qui vous voulez garder ouvert sur ​​la charge"
+
+#: lib/template/tabs/html.php:108
+msgid "remove unwanted tabs"
+msgstr "supprimer des onglets indésirables"
+
+#: lib/template/deslist/html.php:10
+msgid "Number of items you want to show in list, enter a numeric value"
+msgstr ""
+"Nombre d'articles que vous voulez afficher dans la liste, entrez une valeur "
+"numérique"
+
+#: lib/template/deslist/html.php:13
+msgid "List style"
+msgstr "Style de liste"
+
+#: lib/template/deslist/html.php:16
+msgid "Horizontal"
+msgstr "horizontal"
+
+#: lib/template/deslist/html.php:18
+msgid "Whether to show vertical list or horizontal list"
+msgstr "Que ce soit pour afficher la liste verticale ou horizontale liste"
+
+#: lib/template/boxesframes/html.php:8
+msgid "Shadow Type"
+msgstr "Type d'ombre"
+
+#: lib/template/boxesframes/html.php:11
+msgid "Left Perspective"
+msgstr "gauche perspective"
+
+#: lib/template/boxesframes/html.php:12
+msgid "Right Perspective"
+msgstr "perspective droit"
+
+#: lib/template/boxesframes/html.php:13
+msgid "Two Side Perspective"
+msgstr "Perspective de deux Side"
+
+#: lib/template/boxesframes/html.php:14
+msgid "Left Lifted Corner"
+msgstr "Gauche Lifted coin"
+
+#: lib/template/boxesframes/html.php:15
+msgid "Right Lifted Corner"
+msgstr "Droit Lifted coin"
+
+#: lib/template/boxesframes/html.php:16
+msgid "Both Lifted Corner"
+msgstr "Tant Coin Lifted"
+
+#: lib/template/boxesframes/html.php:17
+msgid "Raised Box"
+msgstr "Élevé Box"
+
+#: lib/template/boxesframes/html.php:18
+msgid "Vertical Curves"
+msgstr "Courbes verticales"
+
+#: lib/template/boxesframes/html.php:19
+msgid "Single Horizontal Curves"
+msgstr "Courbes horizontales simples"
+
+#: lib/template/boxesframes/html.php:20
+msgid "Horizontal Curves"
+msgstr "Courbes horizontales"
+
+#: lib/template/boxesframes/html.php:22
+msgid "To make your boxframe more attractive choose a shadow type"
+msgstr "Pour faire votre boxframe plus attrayant choisir un type de l'ombre"
+
+#: lib/template/boxesframes/html.php:27
+msgid "Specifies background color of the box"
+msgstr "Indique la couleur de la boîte de fond"
+
+#: lib/template/boxesframes/html.php:30 lib/template/progressbar/html.php:46
+#: lib/template/progressbar/html.php:151
+msgid "Font Color"
+msgstr "Couleur de police"
+
+#: lib/template/boxesframes/html.php:32
+msgid "Specifies text color in the box"
+msgstr "Indique la couleur du texte dans la boîte"
+
+#: lib/template/sectionhead/html.php:9
+msgid "Add section heading provide your heading and class and insert shortcode"
+msgstr ""
+"Ajouter l'article intitulé fournir votre position et de la classe et insérer "
+"shortcode"
+
+#: lib/template/pricingtable/html.php:4
+msgid "One"
+msgstr "un"
+
+#: lib/template/pricingtable/html.php:4
+msgid "Two"
+msgstr "deux"
+
+#: lib/template/pricingtable/html.php:4
+msgid "Three"
+msgstr "trois"
+
+#: lib/template/pricingtable/html.php:4
+msgid "Four"
+msgstr "quatre"
+
+#: lib/template/pricingtable/html.php:14
+msgid "Vertical Box"
+msgstr "Boîte vertical"
+
+#: lib/template/pricingtable/html.php:16
+msgid "Choose whether to make a box shaped or circle shaped pricing table."
+msgstr ""
+"Choisir de faire une boîte en forme de cercle ou en forme de tableau de prix."
+
+#: lib/template/pricingtable/html.php:19
+msgid "Column Type"
+msgstr "Type de colonne"
+
+#: lib/template/pricingtable/html.php:20
+msgid "Multi Column"
+msgstr "multi colonne"
+
+#: lib/template/pricingtable/html.php:20
+msgid "Single Column"
+msgstr "Colonne unique"
+
+#: lib/template/pricingtable/html.php:21
+msgid ""
+"Single column for adjoining pricing table w/o  space and multi column for "
+"pricing table based on  bootstrap column structure"
+msgstr ""
+"Colonne unique pour voisine de table de prix w / o espace et multi colonne "
+"pour le tableau des tarifs basés sur la structure de la colonne d'amorçage"
+
+#: lib/template/pricingtable/html.php:24
+msgid "Currency"
+msgstr "monnaie"
+
+#: lib/template/pricingtable/html.php:26
+msgid "Enter currency symbol or text for that"
+msgstr "Entrez symbole de la monnaie ou le texte pour que"
+
+#: lib/template/pricingtable/html.php:28
+msgid "Number of Pricing Tables"
+msgstr "Nombre de tarification Tableaux"
+
+#: lib/template/pricingtable/html.php:31
+msgid "Choose number of pricing table to show from available options"
+msgstr ""
+"Choisissez le nombre de tableau des tarifs de montrer de disponible "
+"optionsNumber de tarification Tableaux"
+
+#: lib/template/pricingtable/html.php:41
+msgid "Global Color Settings"
+msgstr "Paramètres de couleur globale"
+
+#: lib/template/pricingtable/html.php:41
+msgid "These setting to apply common color setting on all pricing tables"
+msgstr ""
+"Ce paramètre s'applique réglage de la couleur commune sur toutes les tables "
+"de tarification"
+
+#: lib/template/pricingtable/html.php:48
+msgid "Pricing Table Settings"
+msgstr "Réglages Prix de la Table"
+
+#: lib/template/pricingtable/html.php:49
+msgid ""
+"Here you customize pricing table, provide value pricing table features, "
+"overwrite color setting for specific pricing table and manage layout(column) "
+"for prcing tables according to screen size"
+msgstr ""
+"Ici vous de personnaliser le tableau de prix, offrent des fonctionnalités du "
+"tableau de prix de valeur, remplacez paramètre de couleur pour le tableau "
+"des tarifs spécifiques et de gérer la mise en page (colonne) pour prcing "
+"tables selon la taille de l'écran"
+
+#: lib/template/carousel/html.php:111
+msgid "Post Type"
+msgstr "Type de poste"
+
+#: lib/template/carousel/html.php:115
+msgid ""
+"Choose post type whose images you want to display in carousel, and provide "
+"number of post value for each selected post type"
+msgstr ""
+"Choisissez poste type dont les images que vous voulez afficher dans le "
+"carrousel, et fournir le numéro de valeur de poste pour chaque type de "
+"message sélectionné"
+
+#: lib/template/carousel/html.php:118
+msgid "Carousel Style"
+msgstr "style carrousel"
+
+#: lib/template/carousel/html.php:119
+msgid "Multi Item"
+msgstr "multi Point"
+
+#: lib/template/carousel/html.php:120
+msgid "Single Item"
+msgstr "un seul article"
+
+#: lib/template/carousel/html.php:121
+msgid "Weather to show a multiitem carousel or single slider like carousel"
+msgstr "Météo à montrer un carrousel multiitem ou seul curseur comme carrousel"
+
+#: lib/template/carousel/html.php:125
+msgid "Number of Items"
+msgstr "Nombre d'éléments"
+
+#: lib/template/carousel/html.php:127
+msgid "If chosen multi item carousel, how many item will be shown at a time"
+msgstr ""
+"Si choisi plusieurs article carrousel, combien article sera représenté à un "
+"moment"
+
+#: lib/template/carousel/html.php:130
+msgid "Slide In Effect"
+msgstr "Glisser En Effet"
+
+#: lib/template/carousel/html.php:133
+msgid ""
+"If chosen multi item carousel, choose an effect which will be applied on new "
+"coming carousel slide"
+msgstr ""
+"Si choisi plusieurs article carrousel, choisissez un effet qui sera appliqué "
+"sur la nouvelle lame de carrousel à venir"
+
+#: lib/template/carousel/html.php:135
+msgid "Slide Out Effect"
+msgstr "Faites glisser l'effet"
+
+#: lib/template/carousel/html.php:138
+msgid ""
+"If chosen multi item carousel, choose an effect which will be applied on "
+"outing carousel slide"
+msgstr ""
+"Si choisi plusieurs article carrousel, choisissez un effet qui sera appliqué "
+"sur la glissière de carrousel sortie"
+
+#: lib/template/carousel/html.php:141
+msgid "Transition Style"
+msgstr "Style de transition"
+
+#: lib/template/carousel/html.php:144
+msgid "fade"
+msgstr "fondu"
+
+#: lib/template/carousel/html.php:145
+msgid "backSlide"
+msgstr "récidiver"
+
+#: lib/template/carousel/html.php:146
+msgid "goDown"
+msgstr "GoDown"
+
+#: lib/template/carousel/html.php:147
+msgid "fadeUp"
+msgstr "fadeUp"
+
+#: lib/template/carousel/html.php:149
+msgid "If chosen single item carousel, "
+msgstr "Si choisi un seul article carrousel,"
+
+#: lib/template/carousel/html.php:152
+msgid "Carousel Type"
+msgstr "Carousel type"
+
+#: lib/template/carousel/html.php:153
+msgid "Gallery"
+msgstr "galerie"
+
+#: lib/template/carousel/html.php:154
+msgid ""
+"choose gallery to open original image in popup, link to redirect to post and "
+"none for none of these"
+msgstr ""
+"choisir galerie pour ouvrir l'image originale dans le popup, un lien de "
+"redirection poster et aucun pour aucun de ces"
+
+#: lib/template/carousel/html.php:157
+msgid "Interval"
+msgstr "intervalle"
+
+#: lib/template/carousel/html.php:159
+msgid ""
+"If you want an auto play carousel provide a interval time in milliseconds"
+msgstr ""
+"Si vous voulez un carrousel de lecture automatique de fournir un intervalle "
+"de temps en millisecondes"
+
+#: lib/template/carousel/html.php:162 lib/template/slider/html.php:21
+msgid "Pause On Hover"
+msgstr "Pause Le Hover"
+
+#: lib/template/carousel/html.php:164
+msgid ""
+"If carousel is auto play enabled  whether to stop slide animation on hover"
+msgstr ""
+"Si carrousel est la lecture automatique activée s'il faut arrêter "
+"l'animation de diapositives sur le vol stationnaire"
+
+#: lib/template/carousel/html.php:166
+msgid "Show Play/Pause button"
+msgstr "Afficher le bouton Lecture / Pause"
+
+#: lib/template/carousel/html.php:168
+msgid "Show play pause button to control carousel animation"
+msgstr ""
+"Afficher le bouton de pause de lecture pour contrôler l'animation carrousel"
+
+#: lib/template/carousel/html.php:171
+msgid "Navigation Position"
+msgstr "Navigation Position"
+
+#: lib/template/carousel/html.php:173
+msgid "Side"
+msgstr "côté"
+
+#: lib/template/carousel/html.php:177
+msgid ""
+"Do u want to show next and previous link, if yes then on bottom of carousel "
+"or at sides"
+msgstr ""
+"Do u veulent montrer le lien suivant et précédent, si oui, alors en bas de "
+"carrousel ou sur les côtés"
+
+#: lib/template/carousel/html.php:179 lib/template/slider/html.php:16
+msgid "Show Navigation Bullets"
+msgstr "Puces Afficher navigation"
+
+#: lib/template/carousel/html.php:181
+msgid "Whether to show bullets control at bottom of carousel"
+msgstr "Que ce soit pour montrer balles contrôle en bas de carrousel"
+
+#: lib/template/carousel/html.php:184 lib/template/slider/html.php:32
+msgid "Navigation Color"
+msgstr "Navigation Couleur"
+
+#: lib/template/carousel/html.php:186
+msgid "Color Of navigation bullets and linkss"
+msgstr "Couleur de balles de navigation et linkss"
+
+#: lib/template/notifications/html.php:15
+msgid ""
+"Choose notification(alert) style among bootstrap standard notification styles"
+msgstr ""
+"Choisissez le style notification (alerte) entre bootstrap styles de "
+"notification standard"
+
+#: lib/template/notifications/html.php:18
+msgid "Close link"
+msgstr "Fermer lien"
+
+#: lib/template/notifications/html.php:20
+msgid ""
+"Whether to show a close button on notification, by clicking on this icon you "
+"can close the notification"
+msgstr ""
+"Que ce soit pour afficher un bouton de fermeture sur la notification, en "
+"cliquant sur cette icône, vous pouvez fermer la notification"
+
+#: lib/template/pagination/html.php:9
+msgid ""
+"This shordcode is used to add pagination to page content in stylish and "
+"desired style this shorcode is not editable and doesn't accept any parameter"
+msgstr ""
+"Cette shordcode est utilisé pour ajouter la pagination à la page contenu "
+"dans le style élégant et souhaité ce shorcode n'est pas modifiable et ne pas "
+"accepter n'importe quel paramètre"
+
+#: lib/template/wpcolumns/html.php:8
+msgid "Add Wrap"
+msgstr "Ajouter Wrap"
+
+#: lib/template/wpcolumns/html.php:11
+msgid "Check this option if you want to add wrapper div to row"
+msgstr "Cochez cette option si vous souhaitez ajouter wrapper div à la ligne"
+
+#: lib/template/wpcolumns/html.php:14
+msgid "Wrapper Class"
+msgstr "classe enveloppe"
+
+#: lib/template/wpcolumns/html.php:17
+msgid "Provide a custom class which will be added to wrapper div."
+msgstr "Fournir une classe personnalisée qui sera ajouté à wrapper div."
+
+#: lib/template/wpcolumns/html.php:20
+msgid "Number of columns"
+msgstr "Nombre de colonnes"
+
+#: lib/template/wpcolumns/html.php:22
+msgid "One column"
+msgstr "Une colonne"
+
+#: lib/template/wpcolumns/html.php:23
+msgid "Two columns"
+msgstr "deux colonnes"
+
+#: lib/template/wpcolumns/html.php:24
+msgid "Three columns"
+msgstr "trois colonnes"
+
+#: lib/template/wpcolumns/html.php:25
+msgid "Four columns"
+msgstr "quatre colonnes"
+
+#: lib/template/wpcolumns/html.php:27
+msgid "Choose number of columns you want to show"
+msgstr "Choisissez le nombre de colonnes que vous souhaitez afficher"
+
+#: lib/template/wpcolumns/html.php:30
+msgid "Column Specification"
+msgstr "Spécification de la colonne"
+
+#: lib/template/wpcolumns/html.php:30
+msgid "Customize every column features and setting "
+msgstr "Customisez toutes les caractéristiques de la colonne et réglage"
+
+#: lib/template/wpcolumns/html.php:52
+msgid "CL"
+msgstr "CL"
+
+#: lib/template/wpcolumns/html.php:53
+msgid "Column"
+msgstr "colonne"
+
+#: lib/template/wpcolumns/html.php:54
+msgid "Offset"
+msgstr "compenser"
+
+#: lib/template/wpcolumns/html.php:55
+msgid "Hide"
+msgstr "cacher"
+
+#: lib/template/wpcolumns/html.php:60
+msgid "Screen"
+msgstr "écran"
+
+#: lib/template/wpcolumns/html.php:60
+msgid ""
+"All bootstrap standard screen type you can customize your column according "
+"to screen type"
+msgstr ""
+"Tous bootstrap type d'écran standard, vous pouvez personnaliser votre "
+"colonne en fonction du type d'écran"
+
+#: lib/template/wpcolumns/html.php:61
+msgid "Hide Row"
+msgstr "Cachez Row"
+
+#: lib/template/wpcolumns/html.php:61
+msgid "Check this option to hide the complete row"
+msgstr "Cochez cette option pour masquer la ligne complète"
+
+#: lib/template/slider/html.php:8
+msgid "Slider Interval"
+msgstr "curseur Intervalle"
+
+#: lib/template/slider/html.php:10
+msgid ""
+"Provide slider interval in miliseconds (ex: 1200) if want an auto play slider"
+msgstr ""
+"Fournir intervalle de curseur en millisecondes (ex: 1200) si voulez un "
+"curseur de lecture automatique"
+
+#: lib/template/slider/html.php:13
+msgid "Show Navigation Controls"
+msgstr "Afficher les contrôles de navigation"
+
+#: lib/template/slider/html.php:15
+msgid "Show slide next and previous links"
+msgstr "Diapositive lien suivant et précédent"
+
+#: lib/template/slider/html.php:18
+msgid "Show navigation bullets at bottom of slide"
+msgstr "Afficher balles de navigation au bas de la diapositive"
+
+#: lib/template/slider/html.php:23
+msgid "Pause slider navigation on hover"
+msgstr "Pause navigation curseur sur le vol stationnaire"
+
+#: lib/template/slider/html.php:24
+msgid "Cyclic"
+msgstr "cyclique"
+
+#: lib/template/slider/html.php:26
+msgid "Make slider repetitive, after last slide first slide will be shown"
+msgstr ""
+"Faire curseur répétitif, après la dernière diapositive première diapositive "
+"sera affichée"
+
+#: lib/template/slider/html.php:29
+msgid "Caption Color"
+msgstr "légende couleur"
+
+#: lib/template/slider/html.php:31
+msgid "Choose slider image caption color"
+msgstr "Choisissez curseur couleur de l'image de la légende"
+
+#: lib/template/slider/html.php:34
+msgid "Choose slider navigation color"
+msgstr "Choisissez la couleur curseur de navigation"
+
+#: lib/template/slider/html.php:37
+msgid "Add slides"
+msgstr "Ajouter des diapositives"
+
+#: lib/template/slider/html.php:46
+msgid "Title for each slider image"
+msgstr "Titre pour chaque image de curseur"
+
+#: lib/template/slider/html.php:47
+msgid "Upload slider image by using wordpress media uploader"
+msgstr ""
+"Téléchargez l'image de curseur en utilisant wordpress uploader des médias"
+
+#: lib/template/slider/html.php:48
+msgid "Provide image caption for each image"
+msgstr "Fournir légende de l'image pour chaque image"
+
+#: lib/template/slider/html.php:49
+msgid "Choose image which you want to show at first when slider loaded"
+msgstr ""
+"Choisissez l'image que vous voulez montrer au début, quand curseur chargé"
+
+#: lib/template/slider/html.php:50
+msgid "Remove unwanted slides"
+msgstr "Retirer les lames indésirables"
+
+#: lib/template/btngrp/html.php:8
+msgid "Button Group Features"
+msgstr "Fonctions de groupe Button"
+
+#: lib/template/btngrp/html.php:16 lib/template/buttons/html.php:21
+#: lib/template/dropdown/html.php:16
+msgid "Size"
+msgstr "taille"
+
+#: lib/template/btngrp/html.php:16
+msgid ""
+"Specifies size of buttons in button grp you can choose any one of standard "
+"bootstrap sizes"
+msgstr ""
+"Indique la taille de boutons de bouton grp vous pouvez choisir l'une des "
+"tailles de bootstrap standards"
+
+#: lib/template/btngrp/html.php:21 lib/template/buttons/html.php:25
+#: lib/template/servicebox/html.php:170 lib/template/dropdown/html.php:30
+msgid "Ex-small"
+msgstr "Ex-petit"
+
+#: lib/template/btngrp/html.php:24
+msgid "Weather to show vertical, horizontal or justified button group"
+msgstr "Météo à montrer verticale, horizontale ou justifié groupe de boutons"
+
+#: lib/template/btngrp/html.php:28
+msgid "Vertical"
+msgstr "vertical"
+
+#: lib/template/btngrp/html.php:29
+msgid "Justified"
+msgstr "justifié"
+
+#: lib/template/btngrp/html.php:38
+msgid "Button Group Items"
+msgstr "Bouton Groupe ItemsJustified"
+
+#: lib/template/btngrp/html.php:40
+msgid ""
+"Here you can add multiple buttons to button group by using ' Add new item "
+"Button'"
+msgstr ""
+"Ici, vous pouvez ajouter plusieurs boutons de groupe de boutons à l'aide de "
+"«Ajouter un élément Button '"
+
+#: lib/template/btngrp/html.php:50
+msgid "Chosse a button style from standard bootstrap button styles"
+msgstr "Chosse un style de bouton de standards styles de boutons de bootstrap"
+
+#: lib/template/btngrp/html.php:51
+msgid "Specifies button type whether link or button"
+msgstr "Indique le type de bouton que lien ou un bouton"
+
+#: lib/template/btngrp/html.php:52
+msgid "If button type is link, provide url for link 'href' attribute"
+msgstr ""
+"Si le type de bouton est lien, fournir des URL pour le lien 'href' attribut"
+
+#: lib/template/btngrp/html.php:53
+msgid "Open in New Window"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+#: lib/template/btngrp/html.php:53
+msgid "If button type is link, it specifies button target"
+msgstr "Si le type de bouton est le lien, il précise bouton cible"
+
+#: lib/template/btngrp/html.php:54
+msgid "Specifies button or link text"
+msgstr "Indique bouton ou un lien texte"
+
+#: lib/template/btngrp/html.php:55
+msgid "Click this option to remove button from button group"
+msgstr "Cliquez sur cette option pour supprimer le bouton de groupe de boutons"
+
+#: lib/template/well/html.php:8
+msgid "Well Type"
+msgstr "Eh bien Tapez"
+
+#: lib/template/well/html.php:14
+msgid "Choose well type among standard bootstrap well types"
+msgstr "Choisissez bien le type parmi les types de bootstrap et standards"
+
+#: lib/template/well/html.php:17
+msgid "Well Content"
+msgstr "Eh bien contenu"
+
+#: lib/template/well/html.php:19
+msgid "Provide well content"
+msgstr "Fournir un contenu de bien"
+
+#: lib/template/separator/html.php:8
+msgid "Separator Content"
+msgstr "Separator contenu"
+
+#: lib/template/separator/html.php:10
+msgid "Enter separator content"
+msgstr "Entrez le contenu de séparation"
+
+#: lib/template/separator/html.php:13
+msgid "Separator Style"
+msgstr "séparateur de style"
+
+#: lib/template/separator/html.php:25
+msgid "Choose separator style"
+msgstr "Choisissez le style de séparation"
+
+#: lib/template/separator/html.php:30
+msgid "Margin for separator from top and bottom, Enter a numeric value Ex. 20"
+msgstr ""
+"Marge pour séparateur de haut et en bas, entrez une valeur numérique Ex. 20"
+
+#: lib/template/tables/html.php:8
+msgid "Table Width"
+msgstr "Largeur du tableau"
+
+#: lib/template/tables/html.php:10
+#, php-format
+msgid "Provide table width ex. 80% or 400px"
+msgstr "Fournir tableau largeur ex. 80% ou 400px"
+
+#: lib/template/tables/html.php:13
+msgid "Columns"
+msgstr "colonnes"
+
+#: lib/template/tables/html.php:15
+msgid "Number of table columns, enter a numeric value"
+msgstr "Nombre de colonnes de la table, entrez une valeur numérique"
+
+#: lib/template/tables/html.php:18
+msgid "Rows"
+msgstr "lignes"
+
+#: lib/template/tables/html.php:20
+msgid "Number of table rows, enter a numeric value"
+msgstr "Nombre de lignes de la table, entrez une valeur numérique"
+
+#: lib/template/tables/html.php:23
+msgid "Table style"
+msgstr "Style de tableau"
+
+#: lib/template/tables/html.php:27
+msgid "Striped"
+msgstr "rayé"
+
+#: lib/template/tables/html.php:28
+msgid "Bordered"
+msgstr "bordé"
+
+#: lib/template/tables/html.php:29
+msgid "Striped + Bordered"
+msgstr "Rayures + encadré"
+
+#: lib/template/tables/html.php:32
+msgid "Choose  a table style among standard bootstrap table styles"
+msgstr ""
+"Choisissez un style de tableau entre standards styles de table d'amorçage"
+
+#: lib/template/tables/html.php:35
+msgid "Show hover effect"
+msgstr "Montrez effet de survol"
+
+#: lib/template/tables/html.php:39
+msgid "Show hover effect n table"
+msgstr "Afficher effet hover table n"
+
+#: lib/template/tables/html.php:42
+msgid "Responsive"
+msgstr "sensible"
+
+#: lib/template/tables/html.php:46
+msgid "Check this option to make table responsive "
+msgstr "Cochez cette option pour faire la table réponse"
+
+#: lib/template/tables/html.php:51
+msgid "message"
+msgstr "message"
+
+#: lib/template/vertical_space/html.php:10
+msgid "height of vertical space, Enter a numeric value Ex. 20"
+msgstr "hauteur de l'espace vertical, entrez une valeur numérique Ex. 20"
+
+#: lib/template/recentwork/html.php:14
+msgid "No. of Projects"
+msgstr "Nombre de projets"
+
+#: lib/template/recentwork/html.php:15
+msgid "Enter number of project to be shown, enter a numeric value"
+msgstr "Entrez le numéro de projet à être montré, entrez une valeur numérique"
+
+#: lib/template/recentwork/html.php:23
+msgid "Select column layout for projects"
+msgstr "Sélectionnez disposition des colonnes pour les projets"
+
+#: lib/template/recentwork/html.php:27
+msgid "Define no of words to be shown, Enter a numeric value"
+msgstr "Définir pas de mots pour être montré, entrez une valeur numérique"
+
+#: lib/template/buttons/html.php:19
+msgid ""
+"Specifies button style,list contains all standard bootstrap button style, "
+"can choose custom to customize button style "
+msgstr ""
+"Indique le style de bouton, la liste contient tous les style de bouton "
+"d'amorçage standard, peut choisir personnalisé pour personnaliser le style "
+"de bouton"
+
+#: lib/template/buttons/html.php:27
+msgid "Choose a button size"
+msgstr "Choisissez une taille de bouton"
+
+#: lib/template/buttons/html.php:30
+msgid "Button Background Color"
+msgstr "Bouton Couleur de fond"
+
+#: lib/template/buttons/html.php:32
+msgid "If you chosen custom button style, choose button background color"
+msgstr ""
+"Si vous choisi le style de bouton personnalisé, choisir la couleur de fond "
+"bouton"
+
+#: lib/template/buttons/html.php:33
+msgid "Button Foreground Color"
+msgstr "Bouton Couleur de premier plan"
+
+#: lib/template/buttons/html.php:35
+msgid "If you chosen custom button style, choose button text color"
+msgstr ""
+"Si vous choisi le style de bouton personnalisé, choisissez le bouton couleur "
+"du texte"
+
+#: lib/template/buttons/html.php:38
+msgid "Button Hover Background Color"
+msgstr "Contexte bouton sensitif Couleur"
+
+#: lib/template/buttons/html.php:40
+msgid ""
+"If you chosen custom button style, choose button background color on hover"
+msgstr ""
+"Si vous choisi le style de bouton personnalisé, choisissez le bouton couleur "
+"de fond sur le vol stationnaire"
+
+#: lib/template/buttons/html.php:42
+msgid "Button Hover Foreground Color"
+msgstr "Bouton sensitif Couleur de premier plan"
+
+#: lib/template/buttons/html.php:44
+msgid "If you chosen custom button style, choose button text color on hover"
+msgstr ""
+"Si vous choisi le style de bouton personnalisé, choisissez le bouton couleur "
+"du texte au survol"
+
+#: lib/template/buttons/html.php:53
+msgid "Whether button is an anchor or just html button"
+msgstr "Si le bouton est un point d'ancrage ou tout simplement html buttonr"
+
+#: lib/template/buttons/html.php:59
+msgid "If you want to add an icon t button choose desired one"
+msgstr "Si vous souhaitez ajouter une touche t de choisir un icône souhaitée"
+
+#: lib/template/buttons/html.php:62 lib/template/servicebox/html.php:88
+msgid "Icon Alignment"
+msgstr "Alignement de l'icône"
+
+#: lib/template/buttons/html.php:67
+msgid "Whether to align icon to right or left side of text"
+msgstr "Que ce soit pour aligner icône à côté droit ou gauche de texte"
+
+#: lib/template/buttons/html.php:70
+msgid "Choose a color for selected icon"
+msgstr "Choisissez une couleur pour l'icône sélectionnée"
+
+#: lib/template/buttons/html.php:77
+msgid "Button text"
+msgstr "Texte du bouton"
+
+#: lib/template/buttons/html.php:78
+msgid "Make block"
+msgstr "faire bloc"
+
+#: lib/template/buttons/html.php:82
+msgid "Makes a full width button"
+msgstr "Fait un bouton de grande largeur"
+
+#: lib/template/buttons/html.php:88
+msgid "If button type is an link provide the url"
+msgstr "Si le type de bouton est un lien de fournir l'url"
+
+#: lib/template/buttons/html.php:89
+msgid "Open in new window"
+msgstr "Ouvrir dans une nouvelle fenêtre"
+
+#: lib/template/buttons/html.php:93
+msgid "If button type is link specifies its target"
+msgstr "Si le type de bouton est le lien spécifie sa cible"
+
+#: lib/template/servicebox/html.php:10 lib/template/servicebox/html.php:125
+msgid "Service Box Style"
+msgstr "Boîte de service de style"
+
+#: lib/template/servicebox/html.php:11
+msgid "Image"
+msgstr "image"
+
+#: lib/template/servicebox/html.php:12
+msgid "Service box type use icon for service or upload image"
+msgstr ""
+"Type de boîte de service usage icône de service ou de téléchargement d'images"
+
+#: lib/template/servicebox/html.php:17
+msgid "Upload using wordpress media uploader"
+msgstr "Télécharger en utilisant wordpress uploader des médias"
+
+#: lib/template/servicebox/html.php:23
+msgid "Choose an icon for service box"
+msgstr "Choisissez une icône pour la boîte de service"
+
+#: lib/template/servicebox/html.php:25
+msgid "Icon background"
+msgstr "icône fond"
+
+#: lib/template/servicebox/html.php:28 lib/template/dropcaps/html.php:12
+msgid "Box"
+msgstr "boîte"
+
+#: lib/template/servicebox/html.php:29
+msgid "Star"
+msgstr "étoile"
+
+#: lib/template/servicebox/html.php:30
+msgid "Triangle Up"
+msgstr "triangle Up"
+
+#: lib/template/servicebox/html.php:31
+msgid "Triangle Down"
+msgstr "triangle vers le bas"
+
+#: lib/template/servicebox/html.php:32
+msgid "Trapezoid"
+msgstr "trapèze"
+
+#: lib/template/servicebox/html.php:33
+msgid "Hexagon"
+msgstr "hexagone"
+
+#: lib/template/servicebox/html.php:34
+msgid "Pentagon"
+msgstr "Pentagone"
+
+#: lib/template/servicebox/html.php:35
+msgid "Heart"
+msgstr "cœur"
+
+#: lib/template/servicebox/html.php:36
+msgid "Diamond"
+msgstr "diamant"
+
+#: lib/template/servicebox/html.php:37
+msgid "Diamond Narrow"
+msgstr "diamant étroite"
+
+#: lib/template/servicebox/html.php:38
+msgid "Cut Diamond"
+msgstr "couper diamant"
+
+#: lib/template/servicebox/html.php:39
+msgid "Burst 12"
+msgstr "Burst 12"
+
+#: lib/template/servicebox/html.php:40
+msgid "Burst 8"
+msgstr "burst 8"
+
+#: lib/template/servicebox/html.php:42
+msgid "Choose icon background shape"
+msgstr "Choisissez icône fond forme"
+
+#: lib/template/servicebox/html.php:45 lib/template/progressbar/html.php:99
+msgid "Icon Size"
+msgstr "icon Taille"
+
+#: lib/template/servicebox/html.php:48
+msgid "Choose icon size using slider"
+msgstr "Choisissez la taille des icônes en utilisant curseur"
+
+#: lib/template/servicebox/html.php:51
+msgid "Icon Background Size"
+msgstr "Icône Fond Taille"
+
+#: lib/template/servicebox/html.php:54
+msgid "hoose icon background shape size using slider"
+msgstr "icône fond hoose taille de forme à l'aide curseur"
+
+#: lib/template/servicebox/html.php:57
+msgid "Border Radius"
+msgstr "Border Radius"
+
+#: lib/template/servicebox/html.php:60
+msgid "Choose border radius for circle shaped icon background"
+msgstr "Choisissez rayon de frontière pour cercle icône en forme de fond"
+
+#: lib/template/servicebox/html.php:63
+msgid "Icon Style"
+msgstr "style Icon"
+
+#: lib/template/servicebox/html.php:72
+msgid "Choose servicebox border color"
+msgstr "Choisissez Servicebox couleur de la bordure"
+
+#: lib/template/servicebox/html.php:73
+msgid "Border Color on Hover"
+msgstr "Couleur de la bordure sur Hover"
+
+#: lib/template/servicebox/html.php:75
+msgid "Choose servicebox border color on hover"
+msgstr "Choisissez Servicebox couleur de la bordure sur le vol stationnaire"
+
+#: lib/template/servicebox/html.php:78
+msgid "Border Width"
+msgstr "Largeur de la bordure"
+
+#: lib/template/servicebox/html.php:81
+msgid "choose border Width using slider"
+msgstr "choisir Largeur de bordure à l'aide curseur"
+
+#: lib/template/servicebox/html.php:85
+msgid "Margin Top"
+msgstr "marge supérieure"
+
+#: lib/template/servicebox/html.php:87
+msgid "margin for service box from top"
+msgstr "marge de boîte de service de haut"
+
+#: lib/template/servicebox/html.php:91
+msgid "Centre"
+msgstr "Centre"
+
+#: lib/template/servicebox/html.php:95
+msgid "Alignment of icon"
+msgstr "Alignement de l'icône"
+
+#: lib/template/servicebox/html.php:97
+msgid "Margin Bottom"
+msgstr "marge inférieure"
+
+#: lib/template/servicebox/html.php:99
+msgid "margin for service box from bottom"
+msgstr "marge de boîte de service de bas"
+
+#: lib/template/servicebox/html.php:104 lib/template/servicebox/html.php:117
+msgid "Icon Background Color"
+msgstr "Icône Couleur de fond"
+
+#: lib/template/servicebox/html.php:106
+msgid "Choose icon background color"
+msgstr "Choisissez l'icône couleur de fond"
+
+#: lib/template/servicebox/html.php:112
+msgid "Icon Hover Effect"
+msgstr "Icône Hover Effet"
+
+#: lib/template/servicebox/html.php:113
+msgid "Revert"
+msgstr "revenir"
+
+#: lib/template/servicebox/html.php:114
+msgid ""
+"Choose an icon hover effect, revert for reveting default icon color and "
+"background color on hover"
+msgstr ""
+"Choisissez un effet icône de vol stationnaire, pour revenir reveting défaut "
+"icône couleur et couleur de fond sur le vol stationna"
+
+#: lib/template/servicebox/html.php:119
+msgid "Choose icon background color on hover"
+msgstr "Choisissez l'icône couleur de fond sur le vol stationnaire"
+
+#: lib/template/servicebox/html.php:122
+msgid "Choose icon color on hover"
+msgstr "Choisissez l'icône de couleur au survol"
+
+#: lib/template/servicebox/html.php:127
+msgid "Choose service box style, custom to customize color settings"
+msgstr ""
+"Choisissez le style de la boîte de service, personnalisé pour personnaliser "
+"les paramètres de couleur"
+
+#: lib/template/servicebox/html.php:130 lib/template/servicebox/html.php:143
+msgid "Service Box Background Color"
+msgstr "Boîte de service Couleur de fond"
+
+#: lib/template/servicebox/html.php:132
+msgid "Choose servicebox background color"
+msgstr "Choisissez Servicebox couleur de fond"
+
+#: lib/template/servicebox/html.php:133 lib/template/servicebox/html.php:147
+msgid "Service Box Foreground Color"
+msgstr "Service Box Couleur de premier plan"
+
+#: lib/template/servicebox/html.php:135
+msgid "Choose service ox text color"
+msgstr "Choisissez le service bœuf couleur du texte"
+
+#: lib/template/servicebox/html.php:138
+msgid "Service Box Hover Effect"
+msgstr "Service Box Hover Effet"
+
+#: lib/template/servicebox/html.php:140
+msgid "Choose servicebox style  on hover, custom to customize color settings"
+msgstr ""
+"Choisissez le style de Servicebox sur le vol stationnaire, personnalisé pour "
+"personnaliser les paramètres de couleur"
+
+#: lib/template/servicebox/html.php:145
+msgid "Sevicebox background color on hover"
+msgstr "Sevicebox couleur de fond sur le vol stationnaire"
+
+#: lib/template/servicebox/html.php:149
+msgid "servicebox text color on hover"
+msgstr "Servicebox couleur du texte au survol"
+
+#: lib/template/servicebox/html.php:152
+msgid "Read More"
+msgstr "En savoir plus"
+
+#: lib/template/servicebox/html.php:153
+msgid "Include Read More Link"
+msgstr "Inclure Lire la suite Lien"
+
+#: lib/template/servicebox/html.php:154
+msgid ""
+"Whether to show a radmore link, it can be any link for example link of the "
+"web page where user can buy this service"
+msgstr ""
+"Que ce soit pour montrer un lien de Radmore, il peut être un lien par "
+"exemple lien de la page Web où l'utilisateur peut acheter ce service"
+
+#: lib/template/servicebox/html.php:159
+msgid "Url for read more link"
+msgstr "Url pour lire la suite lien"
+
+#: lib/template/servicebox/html.php:160 lib/template/dropdown/html.php:15
+msgid "Text"
+msgstr "texte"
+
+#: lib/template/servicebox/html.php:162
+msgid "Read more text"
+msgstr "Lire la suite du texte"
+
+#: lib/template/servicebox/html.php:172
+msgid "Choose button type for read more link"
+msgstr "Choisissez le type de bouton pour lire la suite lien"
+
+#: lib/template/servicebox/html.php:175
+msgid "Read More Style"
+msgstr "Lire plus de style"
+
+#: lib/template/servicebox/html.php:177
+msgid "Choose Readmore style , custom to customize color settings"
+msgstr ""
+"Choisissez le style Readmore, personnalisé pour personnaliser les paramètres "
+"de couleur"
+
+#: lib/template/servicebox/html.php:180
+msgid "Link Background Color"
+msgstr "Lien Couleur de fond"
+
+#: lib/template/servicebox/html.php:182
+msgid "Read more link background color"
+msgstr "Lire la suite couleur lien de fond"
+
+#: lib/template/servicebox/html.php:184
+msgid "Link Foreground Color"
+msgstr "Lien Couleur de premier plan"
+
+#: lib/template/servicebox/html.php:186
+msgid "Read more link heading color"
+msgstr "Lire la suite lien rubrique couleur"
+
+#: lib/template/servicebox/html.php:198
+msgid "Choose a heading type"
+msgstr "Choisissez un type de rubrique"
+
+#: lib/template/servicebox/html.php:201
+msgid "Provide heading for service box"
+msgstr "Fournir en direction de la boîte de service"
+
+#: lib/template/progressbar/html.php:8
+msgid "Progress Bar Type"
+msgstr "Progress Bar Type d'"
+
+#: lib/template/progressbar/html.php:11
+msgid "Circular"
+msgstr "circulaire"
+
+#: lib/template/progressbar/html.php:12
+msgid "Linear"
+msgstr "linéaire"
+
+#: lib/template/progressbar/html.php:13
+msgid ""
+"To add bootstrap default linear progress bar choose default and to make "
+"custom bar choose circular  or linear progress bar."
+msgstr ""
+"Pour ajouter bootstrap progrès linéaire par défaut la barre de choisir par "
+"défaut et de faire de la barre de commande choisissent barre de progression "
+"circulaire ou linéaire."
+
+#: lib/template/progressbar/html.php:16
+msgid "Progress Bar Style"
+msgstr "Progress Bar style"
+
+#: lib/template/progressbar/html.php:24
+msgid "Choose progress bar style among default bootstrap progress bar styles"
+msgstr ""
+"Choisissez la barre de progression de style entre défaut progrès bootstrap "
+"styles de barre"
+
+#: lib/template/progressbar/html.php:27
+msgid "Circle Style"
+msgstr "cercle de style"
+
+#: lib/template/progressbar/html.php:29
+msgid "Full"
+msgstr "plein"
+
+#: lib/template/progressbar/html.php:30
+msgid "Half"
+msgstr "moitié"
+
+#: lib/template/progressbar/html.php:32
+msgid "Choose circle shape for progress bar"
+msgstr "Choisissez forme de cercle pour la barre de progression"
+
+#: lib/template/progressbar/html.php:35
+msgid "Bar Color"
+msgstr "bar Couleur"
+
+#: lib/template/progressbar/html.php:37
+msgid "Choose progress bar color"
+msgstr "Choisissez la barre de progression de couleur"
+
+#: lib/template/progressbar/html.php:40
+msgid "Choose background color for progress bar"
+msgstr "Choisissez la couleur de fond pour la barre de progression"
+
+#: lib/template/progressbar/html.php:43 lib/template/progressbar/html.php:138
+msgid "Fill Color"
+msgstr "Couleur de remplissage"
+
+#: lib/template/progressbar/html.php:45
+msgid "Choose circle background color"
+msgstr "Choisissez cercle couleur de fond"
+
+#: lib/template/progressbar/html.php:48
+msgid "Choose text color for progress bar"
+msgstr "Choisissez la couleur du texte pour la barre de progression"
+
+#: lib/template/progressbar/html.php:51
+msgid "Dimension Size"
+msgstr "dimension Taille"
+
+#: lib/template/progressbar/html.php:54
+msgid "Choose circle size for progress bar"
+msgstr "Choisissez la taille du cercle de barre de progression"
+
+#: lib/template/progressbar/html.php:57 lib/template/pageheader/html.php:35
+msgid "Font Size"
+msgstr "Taille de la police"
+
+#: lib/template/progressbar/html.php:60
+msgid "Choose font size for progress bar content"
+msgstr ""
+"Choisissez la taille de police pour le contenu de la barre de progression"
+
+#: lib/template/progressbar/html.php:63
+msgid "Progress bar width"
+msgstr "Progrès Largeur"
+
+#: lib/template/progressbar/html.php:66
+msgid "Choose progress bar width"
+msgstr "Choisissez progrès Largeur"
+
+#: lib/template/progressbar/html.php:69
+msgid "Progress bar Border Style"
+msgstr "La barre de progression style de bordure"
+
+#: lib/template/progressbar/html.php:72
+msgid "Inline"
+msgstr "inline"
+
+#: lib/template/progressbar/html.php:73
+msgid "Outline"
+msgstr "contour"
+
+#: lib/template/progressbar/html.php:75
+msgid "Choose border style for progress bar"
+msgstr "Choisissez le style de bordure pour la barre de progression"
+
+#: lib/template/progressbar/html.php:77
+msgid "Progress Bar Animation"
+msgstr "Progress Bar Animations"
+
+#: lib/template/progressbar/html.php:79 lib/template/progressbar/html.php:184
+msgid "Animated Progress Bar"
+msgstr "Animation Progress Bar"
+
+#: lib/template/progressbar/html.php:80
+msgid "Whether to show animated progress bar"
+msgstr "Que ce soit pour afficher la barre de progression animée"
+
+#: lib/template/progressbar/html.php:83
+msgid "Progressbar Label"
+msgstr "progressbar étiquette"
+
+#: lib/template/progressbar/html.php:85
+msgid "Text for progress bar"
+msgstr "Texte pour la barre de progression"
+
+#: lib/template/progressbar/html.php:88
+msgid "Progress bar  Icon"
+msgstr "Barre de progression Icône"
+
+#: lib/template/progressbar/html.php:91
+msgid "Choose Icon for progress bar"
+msgstr "Choisir l'icône pour la barre de progression"
+
+#: lib/template/progressbar/html.php:102
+msgid "Provide Icon size "
+msgstr "Fournir la taille de l'icône"
+
+#: lib/template/progressbar/html.php:105
+msgid "Bar Type"
+msgstr "type de barre"
+
+#: lib/template/progressbar/html.php:122
+msgid ""
+"Type of linear progress bar, deign of all progress bar can be seen in "
+"dropdown choose any one by clicking on it "
+msgstr ""
+"Type de barre de progression linéaire, daigne tout barre de progression peut "
+"être vu dans la liste déroulante choisir une en cliquant dessus"
+
+#: lib/template/progressbar/html.php:125
+msgid "Maximum Value"
+msgstr "Valeur maximale"
+
+#: lib/template/progressbar/html.php:127
+msgid "Maximum value of progress bar, enter a numeric value"
+msgstr ""
+"La valeur maximale de la barre de progression, entrez une valeur numérique"
+
+#: lib/template/progressbar/html.php:129
+msgid "Increment"
+msgstr "incrément"
+
+#: lib/template/progressbar/html.php:131
+msgid "Increment in the progress bar during animation, enter a numeric value"
+msgstr ""
+"Incrémenter dans la barre de progression pendant l'animation, entrer une "
+"valeur numérique"
+
+#: lib/template/progressbar/html.php:135
+msgid "Progress value"
+msgstr "Valeur de progrès"
+
+#: lib/template/progressbar/html.php:137
+msgid ""
+"Actual progress value, it must be less than or equal to maximum value of "
+"progress bar"
+msgstr ""
+"Valeur de la progression réelle, il doit être inférieur ou égal à la valeur "
+"maximale de la barre de progression"
+
+#: lib/template/progressbar/html.php:140
+msgid "Color of progress bar"
+msgstr "Couleur de la barre de progression"
+
+#: lib/template/progressbar/html.php:143
+msgid "Fill Color 2"
+msgstr "Couleur de remplissage 2"
+
+#: lib/template/progressbar/html.php:145
+msgid ""
+"Second gradient color of progress bar, it provide you gradient background "
+"for progress bar"
+msgstr ""
+"Deuxième couleur du dégradé de la barre de progression, il vous fournir un "
+"fond dégradé de la barre de progression"
+
+#: lib/template/progressbar/html.php:148
+msgid "Remaining Bar Color"
+msgstr "Restant Bar Couleur"
+
+#: lib/template/progressbar/html.php:150
+msgid "Color of unfilled progress bar"
+msgstr "Couleur de la barre de progression vacants"
+
+#: lib/template/progressbar/html.php:153
+msgid "Color of progress value"
+msgstr "Couleur de la valeur de progrès"
+
+#: lib/template/progressbar/html.php:157
+msgid "Show Percent"
+msgstr "Afficher Pourcentage"
+
+#: lib/template/progressbar/html.php:159
+msgid ""
+"Check this option if you to show progress percentage instead of progress "
+"value"
+msgstr ""
+"Cochez cette option si vous montriez pourcentage de progression à la place "
+"de la valeur de progrès"
+
+#: lib/template/progressbar/html.php:160
+msgid "Show Offset"
+msgstr "Afficher Offset"
+
+#: lib/template/progressbar/html.php:162
+msgid "Check this option if you want to show minimum and maximum value"
+msgstr ""
+"Cochez cette option si vous souhaitez afficher les valeurs minimale et "
+"maximale"
+
+#: lib/template/progressbar/html.php:165
+msgid "Offset Color"
+msgstr "Offset Couleur"
+
+#: lib/template/progressbar/html.php:167
+msgid "Color of offset values"
+msgstr "Couleur de valeurs de décalage"
+
+#: lib/template/progressbar/html.php:172
+msgid "Progress Value"
+msgstr "Valeur progrès"
+
+#: lib/template/progressbar/html.php:175
+msgid "Enter the progress value"
+msgstr "Entrez la valeur de progrès"
+
+#: lib/template/progressbar/html.php:178
+msgid "Stripped Progress Bar"
+msgstr "Stripped barre de progression"
+
+#: lib/template/progressbar/html.php:181
+msgid "Whether to show strips in progress bar"
+msgstr "Que ce soit pour montrer des bandes dans la barre de progression"
+
+#: lib/template/progressbar/html.php:187
+msgid "Whether to animate progress bar stripes"
+msgstr "Que ce soit pour animer progrès rayures de bar"
+
+#: lib/template/pageheader/html.php:16
+msgid "Enter heading for page header"
+msgstr "Entrez la position de tête de page"
+
+#: lib/template/pageheader/html.php:28
+msgid ""
+"Choose a heading type, this option is useful for styling of heading "
+"according to your theme"
+msgstr ""
+"Choisissez un type de position, cette option est utile pour le style de la "
+"position en fonction de votre thème"
+
+#: lib/template/pageheader/html.php:30
+msgid "Heading Color"
+msgstr "Intitulé Couleur"
+
+#: lib/template/pageheader/html.php:32
+msgid "Choose heading color"
+msgstr "Choisissez la rubrique couleur"
+
+#: lib/template/pageheader/html.php:37
+msgid "Enter font size for heading"
+msgstr "Entrez la taille de la rubrique"
+
+#: lib/template/pageheader/html.php:38 lib/template/thumbnail/html.php:18
+msgid "Show Border"
+msgstr "Afficher la bordure"
+
+#: lib/template/pageheader/html.php:40
+msgid "check to show border at bottom of heading"
+msgstr "vérifiez montrer frontière au bas de la rubrique"
+
+#: lib/template/pageheader/html.php:45
+msgid "Choose border color"
+msgstr "Choisissez la couleur de frontière"
+
+#: lib/template/pageheader/html.php:50
+msgid "Margin for heading, give margin value like 10px 5px 5px 3px"
+msgstr ""
+"Marge pour la rubrique, donner de la valeur de la marge comme 10px 5px 5px "
+"3px"
+
+#: lib/template/pageheader/html.php:52
+msgid "Padding"
+msgstr "rembourrage"
+
+#: lib/template/pageheader/html.php:54
+msgid "Padding for heading, give padding value like 10px 5px 5px 3px"
+msgstr ""
+"Marge pour la rubrique, donner de la valeur de la marge comme 10px 5px 5px "
+"3px "
+
+#: lib/template/dropdown/html.php:8
+msgid "Dropdown Button Features"
+msgstr "Bouton déroulantes Caractéristiques"
+
+#: lib/template/dropdown/html.php:15
+msgid "Enter text for dropdown button"
+msgstr "Entrez le texte pour le bouton de la liste déroulante"
+
+#: lib/template/dropdown/html.php:16
+msgid "Choose dropdown button size among standard bootsrap button sizes"
+msgstr ""
+"Choisissez la taille du bouton déroulant entre standards tailles de bouton "
+"de bootsrap"
+
+#: lib/template/dropdown/html.php:17
+msgid "Choose dropdown button style among standard bootsrap button sizes"
+msgstr ""
+"Choisissez déroulant style de bouton parmi tailles standard de bouton "
+"bootsrap"
+
+#: lib/template/dropdown/html.php:18
+msgid "Split"
+msgstr "de Split"
+
+#: lib/template/dropdown/html.php:18
+msgid "Check this checkbox if you want a split button"
+msgstr "Cochez cette case si vous voulez un bouton partagé"
+
+#: lib/template/dropdown/html.php:19
+msgid "Dropup"
+msgstr "Dropup"
+
+#: lib/template/dropdown/html.php:19
+msgid "specifies position of dropdown items on button click"
+msgstr "précise la position des éléments déroulants sur le bouton clic"
+
+#: lib/template/dropdown/html.php:45
+msgid "Drop Down"
+msgstr "menu déroulant"
+
+#: lib/template/dropdown/html.php:46
+msgid "Drop Up"
+msgstr "déposez Up"
+
+#: lib/template/dropdown/html.php:64
+msgid "Whether the item will be a menu item or a divider"
+msgstr "Que l'article sera un élément de menu ou un diviseur"
+
+#: lib/template/dropdown/html.php:65
+msgid "If item is a menu item provide a urlfor item"
+msgstr "Si l'article est un élément de menu fournir un élément URLFor"
+
+#: lib/template/dropdown/html.php:66
+msgid "Title of the item"
+msgstr "Titre de l'article"
+
+#: lib/template/dropdown/html.php:67
+msgid "Disabled"
+msgstr "handicapés"
+
+#: lib/template/dropdown/html.php:67
+msgid "Whether to make link disabled"
+msgstr "Que ce soit pour faire lien désactivé"
+
+#: lib/template/dropdown/html.php:68
+msgid "Remove unwanted menu dropdown items"
+msgstr "Retirer indésirés le menu déroulants"
+
+#: lib/template/dropdown/html.php:73 lib/template/dropdown/html.php:93
+msgid "Menu Item"
+msgstr "Élément de menu"
+
+#: lib/template/dropdown/html.php:93
+msgid "Divider"
+msgstr "cloison"
+
+#: lib/template/thumbnail/html.php:10
+msgid "Upload an image by using wordpress media uploader"
+msgstr "Téléchargez une image en utilisant wordpress uploader des médias"
+
+#: lib/template/thumbnail/html.php:15
+msgid ""
+"Provide a link where you want to redirect on image click or leave it empty"
+msgstr ""
+"Fournir un lien où vous souhaitez rediriger sur l'image, cliquez ou laisser "
+"vide"
+
+#: lib/template/thumbnail/html.php:20
+msgid "Check this option if you want to show image border"
+msgstr "Cochez cette option si vous souhaitez afficher l'image frontière"
+
+#: lib/template/labels/html.php:8
+msgid "Label Type"
+msgstr "étiquette typer"
+
+#: lib/template/labels/html.php:17
+msgid "Choose label type among standard bootstrap label types"
+msgstr ""
+"Choisissez le type d'étiquette entre les types d'étiquettes de bootstrap "
+"standards"
+
+#: lib/template/labels/html.php:20
+msgid "Label Content"
+msgstr "étiquette de contenu"
+
+#: lib/template/labels/html.php:22
+msgid "Enter content to shown in stylish label"
+msgstr "Entrez contenu à celle indiquée à l'étiquette élégant"
+
+#: lib/template/dropcaps/html.php:8
+msgid "Dropcap Style"
+msgstr "Cochez cette option si vous souhaitez afficher l'image frontière"
+
+#: lib/template/dropcaps/html.php:10
+msgid "Standard"
+msgstr "standard"
+
+#: lib/template/dropcaps/html.php:14
+msgid "Choose a dropcap style"
+msgstr "Choisissez un style de dropcap"
+
+#: lib/template/dropcaps/html.php:17
+msgid "Dropcap Content"
+msgstr "contenu dropcap"
+
+#: lib/template/dropcaps/html.php:18
+msgid "Enter a letter you want t highlight"
+msgstr "Entrez une lettre que vous voulez t clou"
+
+#: lib/template/dropcaps/html.php:23
+msgid "Choose background color for dropcap"
+msgstr "Choisissez la couleur de fond pour dropcap"
+
+#: lib/template/dropcaps/html.php:26
+msgid "Dropcap Color"
+msgstr "dropcap Couleur"
+
+#: lib/template/dropcaps/html.php:28
+msgid "Choose dropcap text color"
+msgstr "Choisissez dropcap couleur du texte"
+
+#: lib/template/testimonial/html.php:9
+msgid ""
+"Write your own testimonial. Provide author name, designation and your custom "
+"class, insert the shortcode"
+msgstr ""
+"Écrivez votre propre témoignage. Indiquez le nom de l'auteur, la désignation "
+"et la classe de votre commande, insérer le shortcode"
+
+#: lib/shortcode/functions.php:736
+msgid "EBS Shortcode"
+msgstr "EBS Shortcode"
+
+#: lib/shortcode/functions.php:737
+msgid "EBS Help"
+msgstr "EBS Aide"
+
+#: lib/shortcode/pagination/plugin_shortcode.php:42
+msgid "Pages:"
+msgstr "pages:"
+
+#: lib/shortcode/pagination/plugin_shortcode.php:50
+msgid "Next page"
+msgstr "Page suivante"
+
+#: lib/shortcode/pagination/plugin_shortcode.php:51
+msgid "Previous page"
+msgstr "page précédente"

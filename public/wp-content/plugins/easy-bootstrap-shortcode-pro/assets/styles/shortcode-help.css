@@ -1,0 +1,121 @@
+
+/*Shortcode Help Page CSS*/
+
+.shortcode-help-outer {
+    background: none repeat scroll 0 0 #FEFEFC;
+    border: 1px solid #EEEEEE;
+    padding: 30px 10px 10px 10px;
+}
+.shortcode-help-outer h3 {
+    border-bottom: 4px double #E3E2D1;
+    color: #009DDC;
+    font-size: 18px;
+    position: relative;
+}
+.shortcode-help-outer h3 span {
+    background: none repeat scroll 0 0 #FFFFF9;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: absolute;
+    top: -12px;
+    width: auto;
+    font-weight: bold;
+}
+.shortcode-help-outer .shrt-content .shrt-detail {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 4px solid #FFFFFF;
+    box-shadow: 0 0 0 10px #787878;
+    margin: 30px auto 20px;
+    padding:20px 30px;
+    width: 90%;
+    line-height: 22px;
+}
+.shortcode-help-outer .shrt-content .shortcode_desc {
+    border-bottom: 3px double #D5D5D5;
+    color: #666666;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px;
+    text-align: justify;
+    width:98%;
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+.shortcode-help-outer .shortcode-text {
+    background: none repeat scroll 0 0 #F8F8F8;
+    border: 1px solid #D7D7D7;
+    color: #474747;
+    margin: 10px 0;
+    padding:15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+}
+.shortcode-help-outer .none_parameter {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+.shortcode-help-outer .shortcode-parameter {
+    border-bottom: 1px dashed #CCCCCC;
+    font-weight: bold;
+    margin: 0 0 12px;
+    padding: 15px 0;
+    font-size: 15px;
+}
+.shortcode-help-outer .short-detail-left,
+.shortcode-help-outer .short-detail-right
+{
+    float: left;
+    line-height: 22px;
+    margin: 0 10px 0 0;
+    width: 48%;
+}
+.shortcode-help-outer  .short-detail-left > h2,
+.shortcode-help-outer  .short-detail-right > h2,
+.shortcode-help-outer .shrt-detail >  h2 {
+    border-bottom: 1px dashed #CCCCCC;
+    color: #1D95D6;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0 0 10px;
+    padding: 0 0 10px;
+}
+
+.shortcode-help-outer .shrt-detail .osc_wp_testimonail{
+    float: left;
+    margin: 0 20px 0 0;
+    width: 47%;
+}
+/*Shortcode Table css*/
+
+.shortcode-help-outer .shortcode-table  {
+    width: 100%;
+    font-size: 14px;
+}
+.shortcode-help-outer .shortcode-table tbody tr th {
+    background: #ececec;
+}
+.shortcode-help-outer .shortcode-table thead th{
+    background: #0193CF;
+    color: #fff;
+}
+.shortcode-help-outer .shortcode-table th,
+.shortcode-help-outer .shortcode-table td {
+    border: 1px solid #ddd !important;
+    padding: 8px;
+}
+.shortcode-help-outer .shortcode-table > thead > tr > th{
+    border-bottom-width: 2px;
+}
+.shortcode-help-outer .shortcode-table > tbody > tr:nth-child(odd) > td{
+    background-color: #f9f9f9;
+}
+.shortcode-help-outer .shortcode-table > tbody > tr:hover > td,
+.shortcode-help-outer .shortcode-table > tbody > tr:hover > th {
+    background-color: #f5f5f5;
+}

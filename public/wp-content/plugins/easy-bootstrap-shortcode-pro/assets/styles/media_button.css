@@ -1,0 +1,125 @@
+/*
+Mixit up css
+*/
+#ebsp_mixitup_setup .ebsp-block{
+    display: none;
+}
+#ebsp_mixitup_setup_inner .ebsp-block{
+    display: none;
+}
+.filter_ebsp > img {
+    float: left;
+    margin: 0 6px -3px 0;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.filter_ebsp:hover img{
+    transform:scale(1.5);
+    -ms-transform:scale(1.5); /* IE 9 */
+    -moz-transform:scale(1.5); /* Firefox */
+    -webkit-transform:scale(1.5); /* Safari and Chrome */
+    -o-transform:scale(1.5); /* Opera */
+}
+.ebsp-block > img {
+    float: left;
+    margin: 0 10px 0px 0;
+}
+.ebsp_filters {
+    background: none repeat scroll 0 0 #EAEAEA;
+    border-bottom:1px solid #9D9D9D;
+    margin: 0 0 10px;
+    padding: 8px 0 0;
+    text-align: center;
+}
+.filter_ebsp {
+    cursor: pointer;
+    display: inline-block;
+    padding:10px;
+    border: 1px solid #EAEAEA;
+    margin: 0;
+    position: relative;
+    bottom: -2px;
+    transition: all 1s ease 0s;
+}
+.filter_ebsp.active,
+.filter_ebsp:hover{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #cccccc;
+    border-bottom: medium none;
+    margin: 0;
+
+    padding: 10px;
+}
+.ebsp-block {
+    height: auto;
+    width: 208px;
+}
+.ebsp_mixit_up span{
+    padding: 5px;
+    cursor: pointer;
+    border-bottom: 1px dashed #DDDCDC;
+    transition: background 0.4s ease 0s, color 0.4s ease 0s;
+    -webkit-perspective: 500;
+    -moz-perspective: 500;
+    -o-perspective: 500;
+    perspective: 500;
+}
+.ebsp_mixit_up span:hover{
+    background: #474747;
+    color: #fff;
+}
+
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+.shake{
+    -webkit-animation-name: shake;
+    animation-name: shake;
+}
+@-webkit-keyframes shake {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+}
+@keyframes shake {
+    0%, 100% {
+        -webkit-transform: translateX(0);
+        -ms-transform: translateX(0);
+        transform: translateX(0);
+    }
+    10%, 30%, 50%, 70%, 90% {
+        -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+    20%, 40%, 60%, 80% {
+        -webkit-transform: translateX(10px);
+        -ms-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+}
+.ebsp_mixit_up span:hover img{
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+}
+
+
+

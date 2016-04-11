@@ -1,0 +1,203 @@
+p:empty {
+    display: none;
+}
+.ebs_page_settings {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #E3E3E3;
+    display: inline-block;
+    margin-top: 20px;
+    padding: 0;
+    width: 99%;
+    position: relative;
+}
+.ebs_page_settings h1 {
+    border-bottom: 1px solid #DDDDDD;
+    color: #33689c;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+.osc-logo-setting {
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+.ebs_details {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border: 1px dashed #D2D2D2;
+    float: left;
+    width: 100%;
+    margin: 8px 0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -ms-border-radius: 3px;
+}
+
+.ebs_details label {
+    color: #474747;
+    line-height: 30px;
+    margin: 0 10px 0 10px;
+    padding: 5px 10px;
+    text-align: left;
+    min-width:190px;
+}
+.ebs_details > label {
+    cursor: default;
+    font-weight: bold;
+    padding: 5px 13px 0 0;
+    color: #207CBC;
+}
+
+.ebs_details.pagination-style > .table_data{
+    margin: 10px 0;
+    width: 70%;
+}
+.ebs_details > p, .ebs_details > .table_data {
+    border-left: 1px dashed #D2D2D2;
+    border-right: 1px dashed #D2D2D2;
+    float: left;
+    margin: 0;
+    padding: 5px 5px 5px 15px;
+}
+.ebs_details.show_cdn #cdn_path, .ebs_details.respond_show_cdn #respond_cdn_path {
+    margin: 4px 10px 4px 10px;
+    width: 462px;
+}
+.ebs_details.show_cdn>#cdn_path {
+    margin: 8px 0 0 10px;
+    width: 462px;
+}
+.ebs_setting_label {
+    display: block;
+    float: left;
+    font-weight: bold;
+}
+.ebs_page_settings .ebs_btn {
+    border-top: 1px solid #DDDDDD;
+    margin: 10px 0 0;
+    padding: 10px 0 0;
+    text-align: right;
+}
+
+label.ebs_editor_label {
+    float: left;
+    padding: 5px;
+    border: 1px solid #F1F1F1;
+    width: auto;
+    margin:10px 15px 10px 0;
+}
+label.ebs_editor_label:hover, .ebs_editor_label.val_selected {
+    background: #fff;
+    padding: 5px;
+    border: 1px solid #E3E3E3;
+    box-shadow: 0 0 3px #C4C4C4;
+    float:  left;
+    width: auto;
+    margin: 10px 15px 10px 0;
+}
+#ebs_custom_css {
+    background: none repeat scroll 0 0 #FFFBEF;
+    box-shadow: 0 0 2px #C4C4C4;
+    margin: 6px 0;
+    min-height: 200px;
+    width: 600px;
+}
+span.notered {
+    font-size: 16px;
+}
+.notered {
+    color: #FF0000;
+    font-style: italic;
+    font-weight: bold;
+}
+#oscitas-table-inner{
+    margin: 10px 0;
+}
+#oscitas-table-inner .multiple-colm_tbl thead tr{
+    background: #0096D9 !important;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+.pagination-style thead tr th, .pagination-style tbody tr td {
+    border: 1px solid #D6D6D6;
+    vertical-align: middle;
+    padding: 8px;
+    line-height: 20px;
+}
+
+.pagination-style .wp-picker-container .iris-picker {
+    position: absolute;
+    z-index: 9;
+}
+
+.wp-picker-container .wp-color-result.ebs-picked-cleared:before {
+    color: #000000;
+    content: "none";
+    font-size: 9px;
+    left: 4px;
+    line-height: 22px;
+    position: absolute;
+    text-decoration: none;
+    top: 0;
+}
+.width150{
+    width: 150px !important;
+}
+.width200{
+    width:189px !important;
+}
+.width175{
+    width:175px !important;
+}
+.width350{
+    width:350px !important;
+}
+
+.ebs_details .osc_popover,
+.ebs_details .osc_tooltip {
+    display: inline-block;
+    margin: 10px 0 0 10px;
+}
+.ebs_details .osc_tooltip{
+    margin: 0 0 0 10px;
+}
+
+.toplevel_page_ebs-ebs-settings .popover h3.popover-title{
+    background: #039EDC;
+    border-bottom: 1px solid #0096D0;
+    color: #fff;
+}
+.toplevel_page_ebs-ebs-settings .popover .popover-content {
+    background: none repeat scroll 0 0 #E4F7FF;
+}
+.toplevel_page_ebs-ebs-settings .popover.bottom > .arrow {
+    border-bottom-color: #0096D0;
+}
+.loading-img-outer {
+    text-align: center;
+    transition: all 0.6s ease;
+    -ms-transition: all 0.6s ease;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+
+}
+.loading-img-outer img{
+    animation:2s linear 0s normal none infinite clock;
+
+}
+
+@keyframes clock
+{
+    from { transform: rotate(0); }
+    to { transform: rotate(360deg); }
+}
+
+

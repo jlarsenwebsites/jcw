@@ -1,0 +1,73 @@
+/*pagination Box*/
+
+.ebs-post-pagination {
+    font-size:10px;
+    font-weight:normal;
+    font-family:arial;
+    margin: 10px 0;
+}
+.ebs-post-pagination ul.pagination,
+.ebs-post-pagination ul.pagination_box,
+.ebs-post-pagination ul.pagination_circle,
+.ebs-post-pagination ul.pagination_rounded_corner{
+    float: left;
+    margin: 0 0 0 8px;
+}
+.ebs-post-pagination p {
+    font-size:1.4em;
+    float: left;
+}
+.ebs-post-pagination ul.pagination_box li, .ebs-post-pagination ul.pagination_circle li,
+.ebs-post-pagination ul.pagination_rounded_corner li{
+    display: inline-block;
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+}
+.ebs-post-pagination ul.pagination_box li a, .ebs-post-pagination ul.pagination_box li span,
+.ebs-post-pagination ul.pagination_circle li a, .ebs-post-pagination ul.pagination_circle li span,
+.ebs-post-pagination ul.pagination_rounded_corner li a, .ebs-post-pagination ul.pagination_rounded_corner li span{
+    background:#fff;
+    border: 1px solid #DDDDDD;
+    color:#444;
+    padding: 6px 12px;
+    font-size: 13px;
+    text-decoration: none;
+
+}
+.ebs-post-pagination ul.pagination_box li a:hover,
+.ebs-post-pagination ul.pagination_circle li a:hover,
+.ebs-post-pagination ul.pagination_rounded_corner li a:hover{
+    background: #eeeeee;
+    border: 1px solid #DDDDDD;
+    text-decoration: none;
+}
+.ebs-post-pagination ul.pagination_box li.active span,
+.ebs-post-pagination ul.pagination_circle li.active span,
+.ebs-post-pagination ul.pagination_rounded_corner li.active span{
+    background: #428BCA;
+    border: 1px solid #216BA7;
+    color: #fff;
+    padding: 6px 12px;
+}
+
+/*Pagination Circle*/
+
+.ebs-post-pagination ul.pagination_circle li a, .ebs-post-pagination ul.pagination_circle li span,
+.ebs-post-pagination ul.pagination_circle li.active span{
+    border-radius: 100%;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin: 0 2px;
+    padding: 0;
+    text-align: center;
+    width: 30px;
+}
+
+/*pagination rounded corner*/
+
+.ebs-post-pagination ul.pagination_rounded_corner li a, .ebs-post-pagination ul.pagination_rounded_corner li span{
+    border-radius: 5px 5px;
+
+}

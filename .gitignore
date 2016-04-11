@@ -1,0 +1,4 @@
+## ignoring duplicate test files
+public/testmefile.php
+vendor/*
+vendor
